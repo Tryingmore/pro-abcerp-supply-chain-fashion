@@ -1,0 +1,232 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_tier_validation_forward
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-04 05:32+0000\n"
+"PO-Revision-Date: 2023-03-05 22:34+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_tier_validation_forward
+#: code:addons/base_tier_validation_forward/wizard/forward_wizard.py:0
+#, python-format
+msgid "(Forward)%s"
+msgstr "%s(转审)"
+
+#. module: base_tier_validation_forward
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#, python-format
+msgid "A review was forwarded by %s."
+msgstr "审批人被 %s 转审"
+
+#. module: base_tier_validation_forward
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#, python-format
+msgid "A review was forwarded from {} {}"
+msgstr "审批人从 {} {} 被转审"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__has_comment
+msgid "Allow Comment"
+msgstr "允许说明"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition__has_forward
+msgid "Allow Forward"
+msgstr "允许转审"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,help:base_tier_validation_forward.field_tier_definition__has_forward
+msgid "Allow option to 'Forward' to different person."
+msgstr "勾选此选项允许指定其他人审批"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,help:base_tier_validation_forward.field_tier_review__approve_sequence
+msgid "Approval order by the specified sequence number"
+msgstr "审批按指定序号排序"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__approve_sequence
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__approve_sequence
+msgid "Approve by sequence"
+msgstr "按顺序审批"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation__can_forward
+msgid "Can Forward"
+msgstr "能转审"
+
+#. module: base_tier_validation_forward
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.view_forward_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__has_comment
+msgid "Comment"
+msgstr "审批意见"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_comment_wizard
+msgid "Comment Wizard"
+msgstr "审批意见向导"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__name
+msgid "Description"
+msgstr "说明"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_comment_wizard__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_tier_validation_forward
+#: code:addons/base_tier_validation_forward/models/tier_validation.py:0
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.tier_validation_label_forward
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_forward.view_forward_wizard
+#, python-format
+msgid "Forward"
+msgstr "转审"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__forward_description
+msgid "Forward Description"
+msgstr "转审说明"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_validation_forward_wizard
+msgid "Forward Wizard"
+msgstr "转审向导"
+
+#. module: base_tier_validation_forward
+#: code:addons/base_tier_validation_forward/wizard/forward_wizard.py:0
+#, python-format
+msgid "Forward to %s"
+msgstr "转到: %s"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields.selection,name:base_tier_validation_forward.selection__tier_review__status__forwarded
+msgid "Forwarded"
+msgstr "已转审"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_comment_wizard__id
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition__id
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__id
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation__id
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__id
+msgid "ID"
+msgstr "id "
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_comment_wizard____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard____last_update
+msgid "Last Modified on"
+msgstr "最近修改时间"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最近更新人"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__write_date
+msgid "Last Updated on"
+msgstr "最近更新时间"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__forward_reviewer_id
+msgid "Next Reviewer"
+msgstr "下一审批人"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__res_id
+msgid "Res"
+msgstr "资源"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__res_model
+msgid "Res Model"
+msgstr "资源模型"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__reviewer_id
+msgid "Reviewer"
+msgstr "审批人"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__reviewer_group_id
+msgid "Reviewer group"
+msgstr "审批组"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__sequence
+msgid "Sequence"
+msgstr "序号"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_comment_wizard__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_definition__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_validation_forward_wizard__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__status
+msgid "Status"
+msgstr "状态"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_definition
+msgid "Tier Definition"
+msgstr "层级定义"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_review
+msgid "Tier Review"
+msgstr "层级审批"
+
+#. module: base_tier_validation_forward
+#: model:ir.model,name:base_tier_validation_forward.model_tier_validation
+msgid "Tier Validation (abstract)"
+msgstr "多层级审批（抽象）"
+
+#. module: base_tier_validation_forward
+#: model:mail.message.subtype,name:base_tier_validation_forward.mt_tier_validation_forwarded
+msgid "Tier Validation Forward Notification"
+msgstr "多层级审批转审通知"
+
+#. module: base_tier_validation_forward
+#: model:ir.model.fields,field_description:base_tier_validation_forward.field_tier_review__review_type
+msgid "Validated by"
+msgstr "审批人类型"

@@ -1,0 +1,116 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_quick
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 14:33+0000\n"
+"PO-Revision-Date: 2023-03-05 22:28+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.view_purchase_form
+msgid "Add"
+msgstr "批量添加"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__display_name
+#: model:ir.model.fields,field_description:purchase_quick.field_purchase_order__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
+msgid "Filter products supplied by the supplier of the current parent object"
+msgstr "筛选当前父对象的供应商提供的产品"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.product_search_form_view
+msgid "For current supplier"
+msgstr "对于当前供应商"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__id
+#: model:ir.model.fields,field_description:purchase_quick.field_purchase_order__id
+msgid "ID"
+msgstr "id "
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product____last_update
+#: model:ir.model.fields,field_description:purchase_quick.field_purchase_order____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: purchase_quick
+#: code:addons/purchase_quick/models/purchase_order.py:0
+#, python-format
+msgid ""
+"Must have only 1 line per product for mass addition, but there are %s lines "
+"for the product %s"
+msgstr "对于批量添加，每个产品只能有1行，但是这儿有%s行对于产品%s"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
+msgid "Open"
+msgstr "打开"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__po_line_ids
+msgid "Po Line"
+msgstr "订单行"
+
+#. module: purchase_quick
+#: model:ir.model,name:purchase_quick.model_product_product
+msgid "Product"
+msgstr "产品"
+
+#. module: purchase_quick
+#: code:addons/purchase_quick/models/purchase_order.py:0
+#, python-format
+msgid "Product Variants"
+msgstr "产品变体"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
+msgid "Products for purchase"
+msgstr "采购产品"
+
+#. module: purchase_quick
+#: model:ir.model,name:purchase_quick.model_purchase_order
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__seller_price
+msgid "Seller Price"
+msgstr "成本价格"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__smart_search
+#: model:ir.model.fields,field_description:purchase_quick.field_purchase_order__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: purchase_quick
+#: model:ir.model.fields,help:purchase_quick.field_product_product__po_line_ids
+msgid "Technical: used to compute quantities to purchase."
+msgstr "技术：用于计算采购数量。"
+
+#. module: purchase_quick
+#: model_terms:ir.ui.view,arch_db:purchase_quick.product_tree_view4purchase
+msgid "UoM"
+msgstr "计量单位"
+
+#. module: purchase_quick
+#: model:ir.model.fields,field_description:purchase_quick.field_product_product__variant_specific_seller_ids
+msgid "Variant Specific Seller"
+msgstr "变体特定卖方"

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t name="mrp_bom_location.BomOverviewSpecialLineLocation" owl="1" t-inherit="mrp.BomOverviewSpecialLine" t-inherit-mode="extension">
+        <xpath expr="//tr/td[8]" position="after">
+<!--            <th t-if="location" class="text-end" title="Location">Location</th>-->
+            <td/>
+        </xpath>
+    </t>
+</templates>

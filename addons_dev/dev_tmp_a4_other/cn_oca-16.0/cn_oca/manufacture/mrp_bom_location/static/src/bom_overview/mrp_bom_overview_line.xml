@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t name="mrp_bom_location.BomOverviewLineLocation" owl="1" t-inherit="mrp.BomOverviewLine" t-inherit-mode="extension">
+        <xpath expr="//tr/td[8]" position="after">
+<!--            <th t-if="location" class="text-end" title="Location">Location</th>-->
+            <td>
+                <div t-attf-class="d-inline-block">
+                    <a href="#" t-on-click.prevent="() => this.goToAction(data.location_id, data.location_model)" t-esc="data.location_name"/>
+                </div>
+            </td>
+        </xpath>
+    </t>
+</templates>

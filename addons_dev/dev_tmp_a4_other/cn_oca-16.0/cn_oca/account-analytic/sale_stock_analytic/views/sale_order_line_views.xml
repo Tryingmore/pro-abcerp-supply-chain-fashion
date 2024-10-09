@@ -1,0 +1,38 @@
+<odoo>
+    <record model="ir.ui.view" id="view_purchase_order_line_tree">
+        <field name="name">sale.order.line.tree</field>
+        <field name="model">sale.order.line</field>
+        <field name="inherit_id" ref="sale.view_order_line_tree" />
+        <field name="arch" type="xml">
+            <field name="salesman_id" position="after">
+                <field
+                        name="analytic_account_ids"
+                        widget="many2many_tags"
+                        options="{'no_create': True}"
+                />
+            </field>
+        </field>
+    </record>
+    <record id="view_purchase_order_line_search" model="ir.ui.view">
+        <field name="name">sale.order.line.search</field>
+        <field name="model">sale.order.line</field>
+        <field name="inherit_id" ref="sale.view_sales_order_line_filter" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='salesman_id']" position="after">
+                <field
+                        name="analytic_account_ids"
+                        widget="many2many_tags"
+                        options="{'no_create': True}"
+                />
+            </xpath>
+            <xpath expr="//filter[@name='salesperson']" position="after">
+                <separator />
+                <filter
+                        string="Analytic Account"
+                        name="analytic"
+                        context="{'group_by':'analytic_account_ids'}"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

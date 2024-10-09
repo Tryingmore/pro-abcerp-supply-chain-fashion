@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+    <!-- This is for old Dialog template.
+    Because Odoo haven't done every template to OWL. -->
+<!--    <t t-extend="Dialog">-->
+<!--        <t t-jquery="button.close" t-operation="inner">-->
+<!--            <i class="fa fa-close" />-->
+<!--        </t>-->
+<!--        <t t-jquery="button.close" t-operation="before">-->
+<!--            <button type="button" class="dialog_button_extend close">-->
+<!--                <i class="fa fa-expand" />-->
+<!--            </button>-->
+<!--            <button type="button" class="dialog_button_restore close">-->
+<!--                <i class="fa fa-compress" />-->
+<!--            </button>-->
+<!--        </t>-->
+<!--    </t>-->
+    
+<!--    <t t-name="web_dialog_size.ActionDialog" t-inherit="web.LegacyAdaptedActionDialog" t-inherit-mode="extension" owl="1">-->
+<!--&lt;!&ndash;        <xpath expr="//header/h4[contains(concat(' ',normalize-space(@class),' '),' modal-title ')]" position="after">&ndash;&gt;-->
+<!--&lt;!&ndash;            <ExpandButton getsize="getSize" setsize="setSize" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </xpath>&ndash;&gt;-->
+<!--        <xpath expr="//button[hasclass('btn-close')]" position="before">-->
+<!--            <t t-debug=""/>-->
+<!--            <ExpandButton getsize="getSize" setsize="setSize" />-->
+<!--        </xpath>-->
+<!--  </t>-->
+
+    <t t-inherit="web.LegacyAdaptedActionDialog" t-inherit-mode="extension" owl="1">
+<!--        <DebugMenu t-if="env.debug" />-->
+        <xpath expr="//div[hasclass('modal-content')]" position="after">
+            <DialogDraggable />
+        </xpath>
+<!--        <DialogDraggable position="inside">-->
+<!--            <xpath expr="//div[hasclass('modal-content')]" position="move" />-->
+<!--        </DialogDraggable>-->
+
+        <xpath expr="//button[hasclass('btn-close')]" position="before">
+            <t t-debug=""/>
+            <ExpandButton getsize="getSize" setsize="setSize" />
+        </xpath>
+    </t>
+</templates>

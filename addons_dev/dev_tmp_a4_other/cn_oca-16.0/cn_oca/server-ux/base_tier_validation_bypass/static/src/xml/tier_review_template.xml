@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates>
+    <t t-extend="base_tier_validation.Collapse">
+        <t t-jquery="table.table-condensed tbody t tr" t-operation="before">
+            <t
+                t-if="review.status == 'bypass'"
+                t-set="status_class"
+                t-value="'alert-warning'"
+            />
+        </t>
+    </t>
+</templates>

@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_menu_invoice_refund
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-05 17:34+0000\n"
+"PO-Revision-Date: 2023-03-05 17:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_menu_invoice_refund
+#: model:ir.actions.act_window,name:account_menu_invoice_refund.action_invoice_in_tree
+#: model:ir.ui.menu,name:account_menu_invoice_refund.menu_action_invoice_in_tree
+msgid "Bills / Refunds"
+msgstr "单据/退款"
+
+#. module: account_menu_invoice_refund
+#: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_out_tree
+msgid "Create a customer invoice"
+msgstr "创建一个客户发票"
+
+#. module: account_menu_invoice_refund
+#: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_in_tree
+msgid "Create a vendor bill"
+msgstr "创建一个供应商账单"
+
+#. module: account_menu_invoice_refund
+#: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_out_tree
+msgid ""
+"Create invoices, register payments and keep track of the discussions with "
+"your customers."
+msgstr "创建发票，登记付款并跟踪与客户的沟通。"
+
+#. module: account_menu_invoice_refund
+#: model_terms:ir.actions.act_window,help:account_menu_invoice_refund.action_invoice_in_tree
+msgid ""
+"Create vendor bills, register payments and keep track of the discussions "
+"with your customers."
+msgstr "创建供应商账单，注册付款并跟踪与客户的讨论。"
+
+#. module: account_menu_invoice_refund
+#: model:ir.actions.act_window,name:account_menu_invoice_refund.action_invoice_out_tree
+#: model:ir.ui.menu,name:account_menu_invoice_refund.menu_action_invoice_out_tree
+msgid "Invoices / Credit Notes"
+msgstr "发票/贷方备注"

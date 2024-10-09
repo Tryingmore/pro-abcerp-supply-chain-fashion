@@ -1,0 +1,122 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_tier_validation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221205\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-08 03:24+0000\n"
+"PO-Revision-Date: 2023-03-05 22:31+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__can_forward
+msgid "Can Forward"
+msgstr "能转审"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__can_review
+msgid "Can Review"
+msgstr "可审批"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__has_comment
+msgid "Has Comment"
+msgstr "允许填写审批意见"
+
+#. module: sale_tier_validation
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.view_sale_order_filter
+msgid "My Sales to review"
+msgstr "我的带审批单"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__need_validation
+msgid "Need Validation"
+msgstr "需要审批"
+
+#. module: sale_tier_validation
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.view_sale_order_filter
+msgid "Needs my Review"
+msgstr "我的待审批单"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__next_review
+msgid "Next Review"
+msgstr "下级审批"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__rejected
+msgid "Rejected"
+msgstr "已拒绝"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__rejected_message
+msgid "Rejected Message"
+msgstr "拒绝信息"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__reviewer_ids
+msgid "Reviewers"
+msgstr "审批者"
+
+#. module: sale_tier_validation
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.view_sale_order_filter
+msgid "SOs validated and ready to be confirmed"
+msgstr "销售订单已审批准备被确认"
+
+#. module: sale_tier_validation
+#: model:ir.model,name:sale_tier_validation.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: sale_tier_validation
+#: model:ir.model,name:sale_tier_validation.model_tier_definition
+msgid "Tier Definition"
+msgstr "层级定义"
+
+#. module: sale_tier_validation
+#: model:mail.message.subtype,name:sale_tier_validation.crm_team_tier_validation_accepted
+#: model:mail.message.subtype,name:sale_tier_validation.sale_order_tier_validation_accepted
+msgid "Tier Validation Accepted Notification"
+msgstr "多层级审批接收通知"
+
+#. module: sale_tier_validation
+#: model:mail.message.subtype,name:sale_tier_validation.crm_team_tier_validation_rejected
+#: model:mail.message.subtype,name:sale_tier_validation.sale_order_tier_validation_rejected
+msgid "Tier Validation Rejected Notification"
+msgstr "多层级审批拒绝通知"
+
+#. module: sale_tier_validation
+#: model:mail.message.subtype,name:sale_tier_validation.crm_team_tier_validation_requested
+#: model:mail.message.subtype,name:sale_tier_validation.sale_order_tier_validation_requested
+msgid "Tier Validation Requested"
+msgstr "多层级审批请求"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__to_validate_message
+msgid "To Validate Message"
+msgstr "审批信息"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__validated
+#: model_terms:ir.ui.view,arch_db:sale_tier_validation.view_sale_order_filter
+msgid "Validated"
+msgstr "已审批"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__validated_message
+msgid "Validated Message"
+msgstr "审批信息"
+
+#. module: sale_tier_validation
+#: model:ir.model.fields,field_description:sale_tier_validation.field_sale_order__review_ids
+msgid "Validations"
+msgstr "审批"

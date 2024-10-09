@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mgmtsystem_action_template
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-29 15:35+0000\n"
+"PO-Revision-Date: 2023-03-05 22:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model,name:mgmtsystem_action_template.model_mgmtsystem_action
+msgid "Action"
+msgstr "操作"
+
+#. module: mgmtsystem_action_template
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
+msgid "Action Template"
+msgstr "操作模板"
+
+#. module: mgmtsystem_action_template
+#: model:ir.ui.menu,name:mgmtsystem_action_template.mgmtsystem_action_template_menu
+msgid "Action Templates"
+msgstr "操作模板"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model,name:mgmtsystem_action_template.model_mgmtsystem_action_template
+msgid "Define fields to save action template values"
+msgstr "保存操作以保存模板定义的值"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__description
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
+msgid "Description"
+msgstr "说明"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,help:mgmtsystem_action_template.field_mgmtsystem_action__template_id
+msgid "Fill Action's fields with Template's values"
+msgstr "使用模板值填充操作字段"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__id
+msgid "ID"
+msgstr ""
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: mgmtsystem_action_template
+#: model:ir.actions.act_window,name:mgmtsystem_action_template.mgmtsystem_action_template_act_window
+msgid "Mgmtsystem Action Template"
+msgstr "Mgm系统操作模板"
+
+#. module: mgmtsystem_action_template
+#. odoo-python
+#: code:addons/mgmtsystem_action_template/models/mgmtsystem_action.py:0
+#: code:addons/mgmtsystem_action_template/tests/test_action_template.py:0
+#, python-format
+msgid "NEW"
+msgstr ""
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action__template_id
+msgid "Reference Template"
+msgstr "参考模版"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__type_action
+msgid "Response Type"
+msgstr "响应类型"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__user_id
+msgid "Responsible"
+msgstr "责任"
+
+#. module: mgmtsystem_action_template
+#: model:ir.model.fields,field_description:mgmtsystem_action_template.field_mgmtsystem_action_template__tag_ids
+msgid "Tags"
+msgstr "标签"
+
+#. module: mgmtsystem_action_template
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action_template.mgmtsystem_action_template_form_view
+msgid "Template title..."
+msgstr "模板标题…"

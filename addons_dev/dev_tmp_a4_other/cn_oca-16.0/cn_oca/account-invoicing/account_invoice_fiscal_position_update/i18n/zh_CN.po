@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_fiscal_position_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-05 17:34+0000\n"
+"PO-Revision-Date: 2023-03-05 17:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_invoice_fiscal_position_update
+#: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_bank_statement_line__fiscal_position_id
+#: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_move__fiscal_position_id
+#: model:ir.model.fields,field_description:account_invoice_fiscal_position_update.field_account_payment__fiscal_position_id
+msgid "Fiscal Position"
+msgstr "税科目调整"
+
+#. module: account_invoice_fiscal_position_update
+#: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_bank_statement_line__fiscal_position_id
+#: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_move__fiscal_position_id
+#: model:ir.model.fields,help:account_invoice_fiscal_position_update.field_account_payment__fiscal_position_id
+msgid ""
+"Fiscal positions are used to adapt taxes and accounts for particular "
+"customers or sales orders/invoices. The default value comes from the "
+"customer."
+msgstr "科目调整用于调整特定客户的税收和账户或销售订单/发票。 默认值来自客户。"
+
+#. module: account_invoice_fiscal_position_update
+#. odoo-python
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#, python-format
+msgid ""
+"The following invoice lines were not updated to the new Fiscal Position because they don't have a Product:\n"
+" - %s\n"
+"You should update the Account and the Taxes of these invoice lines manually."
+msgstr ""
+"以下发票行未更新到新的财务位置，因为它们没有产品：\n"
+" - %s\n"
+"您应该手动更新这些发票行的科目和税率。"
+
+#. module: account_invoice_fiscal_position_update
+#. odoo-python
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#, python-format
+msgid ""
+"The invoice lines were not updated to the new Fiscal Position because they "
+"don't have products. You should update the Account and the Taxes of each "
+"invoice line manually."
+msgstr "发票行没有更新到新的财务位置，因为它们没有产品。您应该手动更新每个发票行的科目和税率。"
+
+#. module: account_invoice_fiscal_position_update
+#. odoo-python
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#: code:addons/account_invoice_fiscal_position_update/models/account_move.py:0
+#, python-format
+msgid "Warning"
+msgstr "警告"

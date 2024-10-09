@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_tier_validation_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-02 15:48+0000\n"
+"PO-Revision-Date: 2023-03-05 22:34+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_tier_validation_report
+#: model:ir.actions.act_window,name:base_tier_validation_report.tier_review_all_action
+#: model:ir.ui.menu,name:base_tier_validation_report.menu_tier_review_report_all
+msgid "All Reviews"
+msgstr "全部审批单"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Approved"
+msgstr "已批准"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Done By"
+msgstr "审批完成人"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__id
+msgid "ID"
+msgstr "id "
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review____last_update
+msgid "Last Modified on"
+msgstr "最近修改时间"
+
+#. module: base_tier_validation_report
+#: model:ir.actions.act_window,name:base_tier_validation_report.tier_review_my_action
+#: model:ir.ui.menu,name:base_tier_validation_report.menu_tier_review_report_my
+msgid "My Reviews"
+msgstr "我的审批单"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__next_review
+msgid "Next Review"
+msgstr "待审批名称"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_form
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_tree
+msgid "Open Resource"
+msgstr "打开单据"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Rejected"
+msgstr "已拒绝"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Requested By"
+msgstr "申请人"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__resource_name
+msgid "Resource Name"
+msgstr "单据名称"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__resource_ref
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Resource Ref"
+msgstr "单据备注"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__resource_type
+msgid "Resource Type"
+msgstr "单据类型"
+
+#. module: base_tier_validation_report
+#: model:ir.ui.menu,name:base_tier_validation_report.menu_tier_validation_report
+msgid "Reviews"
+msgstr "审批单"
+
+#. module: base_tier_validation_report
+#: model:res.groups,name:base_tier_validation_report.group_see_all_reviews
+msgid "See All Tier Reviews"
+msgstr "查看所有tier审批"
+
+#. module: base_tier_validation_report
+#: model:ir.model.fields,field_description:base_tier_validation_report.field_tier_review__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: base_tier_validation_report
+#: model:ir.model,name:base_tier_validation_report.model_tier_review
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_tree
+msgid "Tier Review"
+msgstr "层级审批"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "To Review"
+msgstr "待审批单"
+
+#. module: base_tier_validation_report
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_report.tier_review_report_search
+msgid "Todo By"
+msgstr "审批人"

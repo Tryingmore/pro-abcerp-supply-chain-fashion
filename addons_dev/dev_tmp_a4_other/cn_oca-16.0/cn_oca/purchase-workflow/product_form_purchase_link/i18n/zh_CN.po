@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* product_form_purchase_link
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 14:08+0000\n"
+"PO-Revision-Date: 2023-03-05 22:27+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: product_form_purchase_link
+#: model_terms:ir.ui.view,arch_db:product_form_purchase_link.product_normal_form_view_inherit_purchase
+#: model_terms:ir.ui.view,arch_db:product_form_purchase_link.view_product_template_purchase_buttons_from
+msgid "<span class=\"o_stat_text\">Piece</span>"
+msgstr "<span class=\"o_stat_text\">条</span>"
+
+#. module: product_form_purchase_link
+#: model_terms:ir.ui.view,arch_db:product_form_purchase_link.product_normal_form_view_inherit_purchase
+#: model_terms:ir.ui.view,arch_db:product_form_purchase_link.view_product_template_purchase_buttons_from
+msgid "<span class=\"o_stat_text\">Purchase Lines</span>"
+msgstr "<span class=\"o_stat_text\">采购订单行记录</span>"
+
+#. module: product_form_purchase_link
+#: model:ir.model,name:product_form_purchase_link.model_product_template
+msgid "Product Template (Multi-Company)"
+msgstr "产品模板(多公司)"
+
+#. module: product_form_purchase_link
+#: model:ir.model,name:product_form_purchase_link.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"
+
+#. module: product_form_purchase_link
+#: model:ir.model.fields,field_description:product_form_purchase_link.field_product_product__purchase_lines_count
+#: model:ir.model.fields,field_description:product_form_purchase_link.field_product_template__purchase_lines_count
+msgid "Purchased"
+msgstr "已采购"
+
+#. module: product_form_purchase_link
+#: model:ir.actions.act_window,name:product_form_purchase_link.action_purchase_line_product_product_tree
+#: model:ir.actions.act_window,name:product_form_purchase_link.action_purchase_line_product_tree
+msgid "Purchases"
+msgstr "采购"

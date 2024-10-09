@@ -1,0 +1,190 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* server_action_navigate
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__action_id
+msgid "Action"
+msgstr "动作"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_base_automation__state
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__state
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__state
+msgid "Action To Do"
+msgstr "执行动作"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,help:server_action_navigate.field_base_automation__navigate_action_id
+#: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server__navigate_action_id
+#: model:ir.model.fields,help:server_action_navigate.field_ir_cron__navigate_action_id
+msgid ""
+"Define here the action used when the navigation will be executed if empty, "
+"a generic action will be used."
+msgstr "在此定义导航执行时使用的动作，如果为空，将使用默认动作。"
+
+#. module: server_action_navigate
+#: model_terms:ir.ui.view,arch_db:server_action_navigate.view_ir_actions_server_form
+msgid "Delete Last Line"
+msgstr "删除最后一行"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__display_name
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__field_id
+msgid "Field"
+msgstr "字段"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server_navigate_line__field_model
+msgid "For relationship fields, the technical name of the target model"
+msgstr "对于关系字段，目标模型的技术名称"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__id
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__id
+msgid "ID"
+msgstr ""
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server____last_update
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line____last_update
+msgid "Last Modified on"
+msgstr "最后修改于"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__write_uid
+msgid "Last Updated by"
+msgstr "最后修改者"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__write_date
+msgid "Last Updated on"
+msgstr "最后更新于"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_base_automation__max_navigate_line_model
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__max_navigate_line_model
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__max_navigate_line_model
+msgid "Max Navigate Model in lines"
+msgstr ""
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_base_automation__max_navigate_line_sequence
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__max_navigate_line_sequence
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__max_navigate_line_sequence
+msgid "Max Navigate sequence in lines"
+msgstr ""
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__field_model
+msgid "Model"
+msgstr "模型"
+
+#. module: server_action_navigate
+#: model:ir.model.fields.selection,name:server_action_navigate.selection__ir_actions_server__state__navigate
+msgid "Navigate"
+msgstr "导航"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_base_automation__navigate_line_ids
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_line_ids
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_line_ids
+msgid "Navigate Lines"
+msgstr "导航明细"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_base_automation__navigate_action_id
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_action_id
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_action_id
+msgid "Navigation Action"
+msgstr "导航动作"
+
+#. module: server_action_navigate
+#: model_terms:ir.ui.view,arch_db:server_action_navigate.view_ir_actions_server_form
+msgid "Navigation Options"
+msgstr "导航选项"
+
+#. module: server_action_navigate
+#: model:ir.actions.server,name:server_action_navigate.navigate_partner_2_tags
+msgid "See tags of Partners"
+msgstr "查看合作伙伴的标签"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__sequence
+msgid "Sequence"
+msgstr "序号"
+
+#. module: server_action_navigate
+#: model:ir.model,name:server_action_navigate.model_ir_actions_server
+msgid "Server Action"
+msgstr "服务器动作"
+
+#. module: server_action_navigate
+#: model:ir.model,name:server_action_navigate.model_ir_actions_server_navigate_line
+msgid "Server Actions Navigation Lines"
+msgstr "服务器动作导航明细"
+
+#. module: server_action_navigate
+#: code:addons/server_action_navigate/models/ir_actions_server.py:0
+#, python-format
+msgid ""
+"The Action Server %s is not correctly set\n"
+" : No fields defined"
+msgstr ""
+"T服务器动作 %s 没有正确设置\n"
+" : 没有定义字段"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,help:server_action_navigate.field_base_automation__state
+#: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server__state
+#: model:ir.model.fields,help:server_action_navigate.field_ir_cron__state
+msgid ""
+"Type of server action. The following values are available:\n"
+"- 'Execute Python Code': a block of python code that will be executed\n"
+"- 'Create': create a new record with new values\n"
+"- 'Update a Record': update the values of a record\n"
+"- 'Execute several actions': define an action that triggers several other "
+"server actions\n"
+"- 'Send Email': automatically send an email (Discuss)\n"
+"- 'Add Followers': add followers to a record (Discuss)\n"
+"- 'Create Next Activity': create an activity (Discuss)"
+msgstr ""
+"服务器行动的类型。有以下值可供选择。\n"
+"- '执行Python代码'：一个将被执行的Python代码块\n"
+"- '创建'：用新的值创建一个新的记录\n"
+"- '更新一条记录'：更新一条记录的值\n"
+"- '执行几个动作'：定义一个动作，触发其他几个服务器动作\n"
+"- '发送电子邮件'：自动发送一封电子邮件（讨论）。\n"
+"- '添加追随者'：为一条记录添加追随者 (讨论)\n"
+"- '创建下一个活动'：创建一个活动 (讨论)\n"
+"- '导航'：导航"

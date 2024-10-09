@@ -1,0 +1,706 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* bi_sql_editor
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221102\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 08:11+0000\n"
+"PO-Revision-Date: 2023-03-05 22:29+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid "%(model_name)s Access %(full_name)s"
+msgstr ""
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid "%s (Copy)"
+msgstr "%s 复制"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid "Access %s"
+msgstr "访问 %s"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__action_context
+msgid "Action Context"
+msgstr "动作上下文"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Action Settings"
+msgstr "动作设定"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__group_ids
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Allowed Groups"
+msgstr "允许组"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__user_ids
+msgid "Allowed Users"
+msgstr "允许用户"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid ""
+"Are you sure you want to set to draft this SQL View. It will delete the "
+"materialized view, and all the previous mapping realized with the columns"
+msgstr ""
+"是否确实要设置为草稿此SQL视图。它将删除物化视图，以及所有以前使用列实现的映射"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__tree_visibility__available
+msgid "Available"
+msgstr "可用"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__group_operator__avg
+msgid "Average"
+msgstr "平均"
+
+#. module: bi_sql_editor
+#: model:ir.model,name:bi_sql_editor.model_bi_sql_view
+msgid "BI SQL View"
+msgstr "BI SQL View"
+
+#. module: bi_sql_editor
+#: model:ir.model,name:bi_sql_editor.model_bi_sql_view_field
+msgid "Bi SQL View Field"
+msgstr "Bi SQL View 字段"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__group_operator
+msgid ""
+"By default, Odoo will sum the values when grouping. If you wish to alter the "
+"behaviour, choose an alternate Group Operator"
+msgstr ""
+"默认情况下，在分组时Odoo将对值求和。如果希望改变行为，请选择另一个组运算符"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__is_group_by
+msgid ""
+"Check this box if you want to create a 'group by' option in the search view"
+msgstr "如果要在“搜索”视图中创建“分组依据”选项，请选中此框"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__is_index
+msgid ""
+"Check this box if you want to create an index on that field. This is "
+"recommended for searchable and groupable fields, to reduce duration"
+msgstr ""
+"如果要在该字段上创建索引，请选中此框。建议对可搜索和可分组字段使用此选项，以"
+"缩短持续时间"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__graph_type__col
+msgid "Column"
+msgstr "列"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__view_order
+msgid "Comma-separated text. Possible values: \"graph\", \"pivot\" or \"tree\""
+msgstr "逗号分隔文本。可能值：“图形graph”、“pivot”或“tree”"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__computed_action_context
+msgid "Computed Action Context"
+msgstr "计算动作上下文"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Computed Context"
+msgstr "计算上下文"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Create SQL View, Indexes and Models"
+msgstr "创建SQL视图、索引和模型"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Create UI"
+msgstr "创建UI"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__create_uid
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__create_uid
+msgid "Created by"
+msgstr "被创建"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__create_date
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__cron_id
+msgid "Cron Task that will refresh the materialized view"
+msgstr "将刷新实化视图的Cron任务"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Custom Context"
+msgstr "自定上下文"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__size
+msgid "Database Size"
+msgstr "数据库大小"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__action_context
+msgid ""
+"Define here a context that will be used by default, when creating the action."
+msgstr "在此定义创建操作时默认使用的上下文。"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__domain_force
+msgid ""
+"Define here access restriction to data.\n"
+" Take care to use field name prefixed by 'x_'. A global 'ir.rule' will be "
+"created. A typical Multi Company rule is for exemple \n"
+" ['|', ('x_company_id','child_of', [user.company_id.id]),('x_company_id','=',"
+"False)]."
+msgstr ""
+"在此定义对数据的访问限制。\n"
+"请注意使用前缀为“x_”的字段名。将创建全局“ir.rule”。一个典型的多公司规则就是一"
+"个例子\n"
+"['|'，（'x_company_id'，'child_of'，[user.company_id.id]），"
+"（'x_company_id'，'='，False）]."
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__display_name
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__domain_force
+msgid "Extra Rule Definition"
+msgstr "额外规则定义"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Extras Information"
+msgstr "额外定义"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__field_description
+msgid "Field Description"
+msgstr "字段描述"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__ttype
+msgid "Field Type"
+msgstr "字段类型"
+
+#. module: bi_sql_editor
+#: model:ir.model,name:bi_sql_editor.model_ir_model_fields
+msgid "Fields"
+msgstr "字段"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__many2one_model_id
+msgid ""
+"For 'Many2one' Odoo field.\n"
+" Comodel of the field."
+msgstr ""
+"对于“Many2one”odoo字段。\n"
+"该领域的模型。"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__selection
+msgid ""
+"For 'Selection' Odoo field.\n"
+" List of options, specified as a Python expression defining a list of (key, "
+"label) pairs. For example: [('blue','Blue'), ('yellow','Yellow')]"
+msgstr ""
+"用于“选择”Odoo字段。\n"
+"选项列表，指定为定义（key, label）对列表的Python表达式。例如："
+"[（'blue'，'blue'），（'yellow'，'yellow'）]"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__model_name
+msgid "Full Qualified Name of the transient model that will be created."
+msgstr "将创建的瞬态模型的全名。"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__view_name
+msgid "Full name of the SQL view"
+msgstr "SQL 视图全名"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__graph_type
+msgid "Graph Type"
+msgstr "图形类型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__group_operator
+msgid "Group Operator"
+msgstr "分组运算符"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__has_group_changed
+msgid "Has Group Changed"
+msgstr "已更改组"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__tree_visibility__hidden
+msgid "Hidden"
+msgstr "隐藏"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__id
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__id
+msgid "ID"
+msgstr "ID"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__index_name
+msgid "Index Name"
+msgstr "索引名"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__is_group_by
+msgid "Is Group by"
+msgstr "分组依据"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__is_index
+msgid "Is Index"
+msgstr "是索引"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__is_materialized
+msgid "Is Materialized View"
+msgstr "是全实化视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view____last_update
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field____last_update
+msgid "Last Modified on"
+msgstr "最近更改日期"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_uid
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__write_date
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__materialized_text
+msgid "Materialized Text"
+msgstr "实化文本"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__group_operator__max
+msgid "Maximum"
+msgstr "最大"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__graph_type__measure
+msgid "Measure"
+msgstr "计量"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__group_operator__min
+msgid "Minimum"
+msgstr "最小"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__many2one_model_id
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Model"
+msgstr "模型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__model_name
+msgid "Model Name"
+msgstr "模型名称"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__name
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__name
+msgid "Name"
+msgstr "名称"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid ""
+"No Column was found.\n"
+"Columns name should be prefixed by 'x_'."
+msgstr ""
+"未找到任何列。\n"
+"列名称的前缀应为“x_”。"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__action_id
+msgid "Odoo Action"
+msgstr "Odoo动作"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__cron_id
+msgid "Odoo Cron"
+msgstr ""
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__graph_view_id
+msgid "Odoo Graph View"
+msgstr "Odoo图形视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__menu_id
+msgid "Odoo Menu"
+msgstr "Odoo菜单"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__model_id
+msgid "Odoo Model"
+msgstr "Odoo模型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__pivot_view_id
+msgid "Odoo Pivot View"
+msgstr "Odoo透视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__rule_id
+msgid "Odoo Rule"
+msgstr "Odoo规则"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__search_view_id
+msgid "Odoo Search View"
+msgstr "Odoo搜索视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__tree_view_id
+msgid "Odoo Tree View"
+msgstr "Odoo列表视图"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid "Only graph, pivot or tree views are supported"
+msgstr "仅支持图形、透视或列表视图"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Open View"
+msgstr "打开视图"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Preview SQL Expression"
+msgstr "预览SQL表达式"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__query
+msgid "Query"
+msgstr "查询"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Refresh Materialized View"
+msgstr "刷新物化视图"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid "Refresh Materialized View %s"
+msgstr "刷新物化视图%s"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__graph_type__row
+msgid "Row"
+msgstr "行"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Rule Definition"
+msgstr "规则定义"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid ""
+"SQL Error while creating %(materialized_text)s VIEW %(view_name)s :\n"
+" %(error)s"
+msgstr ""
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__bi_sql_view_field_ids
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "SQL Fields"
+msgstr "SQL字段"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "SQL Query"
+msgstr "SQL查询"
+
+#. module: bi_sql_editor
+#: model:ir.ui.menu,name:bi_sql_editor.menu_bi_sql_editor
+msgid "SQL Reports"
+msgstr "SQL报表"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__query
+msgid ""
+"SQL Request that will be inserted as the view. Take care to :\n"
+" * set a name for all your selected fields, specially if you use SQL "
+"function (like EXTRACT, ...);\n"
+" * Do not use 'SELECT *' or 'SELECT table.*';\n"
+" * prefix the name of the selectable columns by 'x_';"
+msgstr ""
+"将作为视图插入的SQL请求.注意：\n"
+" * 为所有选定字段设置一个名称，特别是在使用SQL函数（如EXTRACT,…）时;\n"
+" * 不要使用 'SELECT *' or 'SELECT table.*'；\n"
+" * 在可选列的名称前面加上 'x_';"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__sql_type
+msgid "SQL Type"
+msgstr "SQL类型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__sql_type
+msgid "SQL Type in the database"
+msgstr "数据库中的SQL类型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__bi_sql_view_id
+msgid "SQL View"
+msgstr "SQL视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view__state__model_valid
+msgid "SQL View and Model Created"
+msgstr "创建SQL视图和模型"
+
+#. module: bi_sql_editor
+#: model:ir.actions.act_window,name:bi_sql_editor.action_bi_sql_view
+#: model:ir.ui.menu,name:bi_sql_editor.menu_bi_sql_view
+msgid "SQL Views"
+msgstr "SQL视图"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Security"
+msgstr "安全"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__selection
+msgid "Selection Options"
+msgstr "可选参数"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Set to Draft"
+msgstr "设为草稿"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__size
+msgid "Size of the materialized view and its indexes"
+msgstr "物化视图及其索引的大小"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__state
+msgid "State"
+msgstr "类别"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__state
+msgid ""
+"State of the Request:\n"
+" * 'Draft': Not tested\n"
+" * 'SQL Valid': SQL Request has been checked and is valid"
+msgstr ""
+"请求的状态：\n"
+"*'草稿'：未测试\n"
+"*'SQL有效'：SQL请求已被检查且有效"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view__technical_name
+msgid ""
+"Suffix of the SQL view. SQL full name will be computed and prefixed by "
+"'x_bi_sql_view_'. Syntax should follow: https://www.postgresql.org/docs/"
+"current/static/sql-syntax-lexical.html#SQL-SYNTAX-IDENTIFIERS"
+msgstr ""
+"SQL视图的后缀。SQL全名将被计算并以“x_bi_SQL_view”作为前缀。语法应如下："
+"https://www.postgresql.org/docs/current/static/sql-syntax-lexical.html#SQL-语"
+"法标识符"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__group_operator__sum
+msgid "Sum"
+msgstr "求和"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__technical_name
+msgid "Technical Name"
+msgstr "技术名称"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__field_description
+msgid "This will be used as the name of the Odoo field, displayed for users"
+msgstr "这将用作显示给用户的Odoo字段的名称"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "This will create Odoo View, Action and Menu"
+msgstr "这将创建Odoo视图、操作和菜单"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid ""
+"This will try to create an SQL View, based on the SQL request and the "
+"according Transient Model and fields, based on settings"
+msgstr "这将尝试根据SQL请求以及相应的瞬态模型和字段（基于设置）创建SQL视图"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__tree_visibility
+msgid "Tree Visibility"
+msgstr "列表视图可见"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,help:bi_sql_editor.field_bi_sql_view_field__ttype
+msgid ""
+"Type of the Odoo field that will be created. Keep empty if you don't want to "
+"create a new field. If empty, this field will not be displayed neither "
+"available for search or group by function"
+msgstr ""
+"将创建Odoo字段的类型。如果不想创建新字段，请保持为空。如果为空，此字段将不显"
+"示，也不可用于搜索或按功能分组"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__tree_visibility__unavailable
+msgid "Unavailable"
+msgstr "不可用"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Update Model Access"
+msgstr "更新模型访问"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid ""
+"Update Model Access. Required if you changed groups list after having "
+"created the model"
+msgstr "更新模型访问。如果在创建模型后更改了组列表，则为必填项"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "User Interface"
+msgstr "用户接口"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "Validate SQL Expression"
+msgstr "验证SQL表达式"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__view_name
+msgid "View Name"
+msgstr "视图名称"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__view_order
+msgid "View Order"
+msgstr "视图顺序"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view__state__ui_valid
+msgid "Views, Action and Menu Created"
+msgstr "创建视图、动作和菜单"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#: code:addons/bi_sql_editor/models/bi_sql_view_field.py:0
+#, python-format
+msgid "You can not create indexes on non materialized views"
+msgstr "不能在非物化视图上创建索引"
+
+#. module: bi_sql_editor
+#: code:addons/bi_sql_editor/models/bi_sql_view.py:0
+#, python-format
+msgid ""
+"You can only unlink draft views.If you want to delete them, first set them "
+"to draft."
+msgstr "只能取消草稿视图的链接。如果要删除它们，请先将它们设置为草稿。"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__boolean
+msgid "boolean"
+msgstr "布尔型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__char
+msgid "char"
+msgstr "字符型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__date
+msgid "date"
+msgstr "日期型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__datetime
+msgid "datetime"
+msgstr "日期时间型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__float
+msgid "float"
+msgstr "浮点型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__integer
+msgid "integer"
+msgstr "整型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__many2one
+msgid "many2one"
+msgstr "多对一"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields.selection,name:bi_sql_editor.selection__bi_sql_view_field__ttype__selection
+msgid "selection"
+msgstr "选择型"
+
+#. module: bi_sql_editor
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view__sequence
+#: model:ir.model.fields,field_description:bi_sql_editor.field_bi_sql_view_field__sequence
+msgid "sequence"
+msgstr "序号"
+
+#. module: bi_sql_editor
+#: model_terms:ir.ui.view,arch_db:bi_sql_editor.view_bi_sql_view_form
+msgid "this will refresh the materialized view"
+msgstr "这将刷新物化视图"

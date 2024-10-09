@@ -1,0 +1,942 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_multi_level
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-30 14:24+0000\n"
+"PO-Revision-Date: 2023-03-05 22:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_action
+msgid "Action"
+msgstr "执行"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__active
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__active
+msgid "Active"
+msgstr "启用"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__approved
+msgid "Approved"
+msgstr "批准"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_search
+msgid "Archived"
+msgstr "已归档"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__assigned
+msgid "Assigned"
+msgstr "已分配"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_inventory_id
+msgid "Associated MRP Inventory"
+msgstr "相关MRP库存"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__buy
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__buy
+msgid "Buy"
+msgstr "购买"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: mrp_multi_level
+#: model:res.groups,name:mrp_multi_level.group_change_mrp_procure_qty
+msgid "Change procure quantity in MRP"
+msgstr "变更采购量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__company_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__confirmed
+msgid "Confirmed"
+msgstr "确认"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_tree
+msgid "Create Procurement"
+msgstr "创建采购"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__create_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__create_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__current_date
+msgid "Current Date"
+msgstr "当前日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__current_qty
+msgid "Current Qty"
+msgstr "生产数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__date
+msgid "Date"
+msgstr "日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__due_date
+msgid "Date in which the supply must have been completed."
+msgstr "供应必须完成的日期。"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Date to Procure"
+msgstr "采购日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__demand_qty
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_type__d
+msgid "Demand"
+msgstr "需求"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__name
+msgid "Description"
+msgstr "说明"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__display_name
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__distribution_lead_time
+msgid "Distribution Lead Time"
+msgstr "分销前置时间"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__due_date
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Due Date"
+msgstr "截止日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_exclude
+msgid "Exclude from MRP"
+msgstr "从MRP中排除"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid "Execute"
+msgstr "执行"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__fixed
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Fixed"
+msgstr "固定"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__fc
+msgid "Forecast"
+msgstr "预测"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__final_on_hand_qty
+msgid "Forecasted Inventory"
+msgstr "预测库存"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "Get from main supplier"
+msgstr "从主要供应商处获得"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Group By..."
+msgstr "分组..."
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+#, python-format
+msgid "Grouped Demand of %(product_name)s for %(delta_days)d Days"
+msgstr "%(delta_days)d天的%(product_name)s 的分组需求量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__mrp_verified
+msgid ""
+"Identifies that this product has been verified to be valid for the MRP."
+msgstr "标识此产品已被验证为对MRP有效。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_multi_level__mrp_area_ids
+msgid "If empty, all areas will be computed."
+msgstr "如果为空，将计算所有区域。"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "Incoming Moves"
+msgstr "来料加工"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_inspection_delay
+msgid "Inspection Delay"
+msgstr "检查延迟"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_stock_location
+msgid "Inventory Locations"
+msgstr "库存位置"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__item_ids
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid "Items"
+msgstr "项目"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__phantom
+msgid "Kit"
+msgstr "运输"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order____last_update
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__write_uid
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__write_date
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_lead_time
+msgid "Lead Time"
+msgstr "提前期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__location_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__location_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_id
+msgid "Location"
+msgstr "位置"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__llc
+msgid "Low Level Code"
+msgstr "低级编码"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_form
+msgid "MOs"
+msgstr "制造订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mrp
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_mrp
+msgid "MRP"
+msgstr "MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_applicable
+msgid "MRP Applicable"
+msgstr "MRP适用"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_area_action
+#: model:ir.model,name:mrp_multi_level.model_mrp_area
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_stock_location__mrp_area_id
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "MRP Area"
+msgstr "MRP 线边库"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__mrp_area_count
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_template__mrp_area_count
+msgid "MRP Area Parameter Count"
+msgstr "MRP线边库计算参数"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__mrp_area_ids
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_template__mrp_area_ids
+msgid "MRP Area parameters"
+msgstr "MRP线边库配置参数"
+
+#. module: mrp_multi_level
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_areas
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_template_only_form_view_mrp
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_product_product_form
+msgid "MRP Areas"
+msgstr "MRP 线边库"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_multi_level__mrp_area_ids
+msgid "MRP Areas to run"
+msgstr "执行MRP线边库存计算"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_date
+msgid "MRP Date"
+msgstr "MRP 日期"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_inventory_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_inventory
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_graph
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_pivot
+msgid "MRP Inventory"
+msgstr "MRP库存"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure_item
+msgid "MRP Inventory procure item"
+msgstr "MRP库存采购项目"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_move
+msgid "MRP Move"
+msgstr "MRP移动"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_move_down_ids
+msgid "MRP Move DOWN"
+msgstr "MRP下移"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "MRP Moves"
+msgstr "MRP移动"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_qty
+msgid "MRP Quantity"
+msgstr "MRP数量"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory
+msgid "MRP inventory projections"
+msgstr "MRP库存预测"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__main_supplier_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__main_supplier_id
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Main Supplier"
+msgstr "主要供应商"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_inventory_procure
+msgid "Make Procurements from MRP inventory projections"
+msgstr "从MRP库存预测中进行采购"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__production_id
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mo
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__manufacture
+msgid "Manufacturing Order"
+msgstr "制造订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_production_ids
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__manufacturing_order_ids
+msgid "Manufacturing Orders"
+msgstr "制造订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_maximum_order_qty
+msgid "Maximum Order Qty"
+msgstr "订货最大数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_order_qty
+msgid "Minimum Order Qty"
+msgstr "订货最小数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mo_count
+msgid "Mo Count"
+msgstr "Mo数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__mv
+msgid "Move"
+msgstr "移动"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_area_id
+msgid "Mrp Area"
+msgstr "MRP线边库"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__mrp_inventory_id
+msgid "Mrp Inventory"
+msgstr "MRP库存"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_move_ids
+msgid "Mrp Move"
+msgstr "MRP转移"
+
+#. module: mrp_multi_level
+#: model:ir.actions.server,name:mrp_multi_level.mrp_multi_level_cron_ir_actions_server
+#: model:ir.cron,cron_name:mrp_multi_level.mrp_multi_level_cron
+#: model:ir.cron,name:mrp_multi_level.mrp_multi_level_cron
+#: model:ir.model,name:mrp_multi_level.model_mrp_multi_level
+msgid "Multi Level MRP"
+msgstr "多级MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
+msgid "Nbr. Days"
+msgstr "Nbr. 天数"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+#, python-format
+msgid "No MRP product found"
+msgstr "未找到MRP产品"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__none
+msgid "None"
+msgstr "无"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__mrp_nbr_days
+msgid ""
+"Number of days to group demand for this product during the MRP run, in "
+"order to determine the quantity to order."
+msgstr "在MRP运行期间对此产品的需求进行分组的天数，以确定要订购的数量。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_order_number
+msgid "Order Number"
+msgstr "订单号"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__order_release_date
+msgid "Order Release Date"
+msgstr "订单发布日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__order_release_date
+msgid "Order release date planned by MRP."
+msgstr "MRP计划的订单发布日期。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_origin
+msgid "Origin"
+msgstr "来源"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+msgid "Outgoing Moves"
+msgstr "外出活动"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__parent_product_id
+msgid "Parent Product"
+msgstr "母产品"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__partially_available
+msgid "Partially Available"
+msgstr "部分可用"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__running_availability
+msgid "Planned Availability"
+msgstr "计划中的可用性"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__date_planned
+msgid "Planned Date"
+msgstr "安排的日期"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_planned_order
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__planned_order_ids
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__planned_order_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_production__planned_order_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__planned_order_ids
+msgid "Planned Order"
+msgstr "计划的订单"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/models/mrp_inventory.py:0
+#: model:ir.actions.act_window,name:mrp_multi_level.mrp_planned_order_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_planned_order
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+#, python-format
+msgid "Planned Orders"
+msgstr "计划的订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__planned_order_up_ids
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_move_view_form
+msgid "Planned Orders UP"
+msgstr "计划订单 UP"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.act_mrp_inventory_procure
+#: model:ir.actions.act_window,name:mrp_multi_level.act_mrp_inventory_procure_planned_order
+msgid "Procure"
+msgstr "补货"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__location_proc_id
+msgid "Procure Location"
+msgstr "采购地点"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid "Procurement Request"
+msgstr "补货申请"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__manufacture
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__manufacture
+msgid "Produce"
+msgstr "产量"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_product_template
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__product_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__product_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__product_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__product_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__product_id
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Product"
+msgstr "产品"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_product_mrp_area
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__product_mrp_area_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__product_mrp_area_id
+msgid "Product MRP Area"
+msgstr "MRP线边库的产品"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.product_mrp_area_action
+#: model:ir.ui.menu,name:mrp_multi_level.menu_product_mrp_area_parameters
+msgid "Product MRP Area Parameters"
+msgstr "MRP线边库的产品配置参数"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_form
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.product_mrp_area_search
+msgid "Product MRP Area parameters"
+msgstr "MRP线边库的产品配置参数"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__product_mrp_area_id
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_planned_order_view_search
+msgid "Product Parameters"
+msgstr "商品参数"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__product_tmpl_id
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__uom_id
+msgid "Product UoM"
+msgstr "产品计量单位"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_product_product
+msgid "Product Variant"
+msgstr "产品变体"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_mrp_production
+msgid "Production Order"
+msgstr "生产订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__pull_push
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__pull_push
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__pull_push
+msgid "Pull & Push"
+msgstr "推拉"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__pull
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__pull
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__pull
+msgid "Pull From"
+msgstr "拉取"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__purchase_order_id
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_origin__po
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__buy
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__purchase_line_id
+msgid "Purchase Order Line"
+msgstr "采购单明细行"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_product__purchase_order_line_ids
+msgid "Purchase Orders"
+msgstr "采购单"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__push
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_planned_order__mrp_action__push
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__push
+msgid "Push To"
+msgstr "推向"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_qty_multiple
+msgid "Qty Multiple"
+msgstr "数量倍数"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__qty_released
+msgid "Qty Released"
+msgstr "发布的数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__qty
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__mrp_qty
+msgid "Quantity"
+msgstr "数量"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__qty_available
+msgid "Quantity Available"
+msgstr "可用数量"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_inventory_procure.py:0
+#, python-format
+msgid "Quantity must be positive."
+msgstr "数量必须是正数。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__ready
+msgid "Ready"
+msgstr "就绪"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__order_release_date
+msgid "Release Date"
+msgstr "发布日期"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_stock_location__mrp_area_id
+msgid ""
+"Requirements for a particular MRP area are combined for the purposes of "
+"procurement by the MRP."
+msgstr "为物料需求计划采购的目的，将合并特定物料需求计划区域的需求。"
+
+#. module: mrp_multi_level
+#: model:ir.actions.act_window,name:mrp_multi_level.action_mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
+msgid "Run MRP"
+msgstr "运行MRP"
+
+#. module: mrp_multi_level
+#: model:res.groups,name:mrp_multi_level.group_mrp_multi_level_run
+msgid "Run MRP Manually"
+msgstr "手动运行MRP"
+
+#. module: mrp_multi_level
+#: model:ir.ui.menu,name:mrp_multi_level.menu_mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
+msgid "Run MRP Multi Level"
+msgstr "运行 MRP多级运算"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/wizards/mrp_multi_level.py:0
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_minimum_stock
+#, python-format
+msgid "Safety Stock"
+msgstr "安全库存"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Selection..."
+msgstr "选择..."
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__sent
+msgid "Sent"
+msgstr "发送"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__location_proc_id
+msgid ""
+"Set this if you need to procure from a different locationthan area's "
+"location."
+msgstr "如果您需要从与线边库位置不同的位置采购，请设置此项。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__origin
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__origin
+msgid "Source Document"
+msgstr "源文档"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__initial_on_hand_qty
+msgid "Starting Inventory"
+msgstr "开始库存"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__state
+msgid "State"
+msgstr "状态"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__stock_move_id
+msgid "Stock Move"
+msgstr "库存移动"
+
+#. module: mrp_multi_level
+#: model:ir.model,name:mrp_multi_level.model_stock_rule
+msgid "Stock Rule"
+msgstr "库存规则"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__main_supplierinfo_id
+msgid "Supplier Info"
+msgstr "供应商名称"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__supply_qty
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__mrp_type__s
+msgid "Supply"
+msgstr "供应"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__supply_method
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__supply_method
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__supply_method
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "Supply Method"
+msgstr "补货方法"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_area__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_move__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_planned_order__company_id
+#: model:ir.model.fields,help:mrp_multi_level.field_product_mrp_area__company_id
+msgid "The company is automatically set from your user preferences."
+msgstr "公司根据您的用户首选项自动设置。"
+
+#. module: mrp_multi_level
+#: model:ir.model.constraint,message:mrp_multi_level.constraint_product_mrp_area_product_mrp_area_uniq
+msgid "The product/MRP Area parameters combination must be unique."
+msgstr "产品/ MRP线边库参数组合必须是唯一的。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,help:mrp_multi_level.field_mrp_inventory__running_availability
+msgid "Theoretical inventory level if all planned orders were released."
+msgstr "如果所有计划订单都已下达，则理论库存水平。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__to_approve
+msgid "To Approve"
+msgstr "待审批"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory__to_procure
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.mrp_inventory_search
+msgid "To Procure"
+msgstr "采购"
+
+#. module: mrp_multi_level
+#: model:ir.actions.server,name:mrp_multi_level.action_server_planned_order_toggle_fixed
+msgid "Toggle Fixed"
+msgstr "切换为固定"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_transit_delay
+msgid "Transit Delay"
+msgstr "调拔延迟"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_move__mrp_type
+msgid "Type"
+msgstr "类型"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_inventory_procure_item__supply_method__none
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__product_mrp_area__supply_method__none
+msgid "Undefined"
+msgstr "未定义"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__uom_id
+msgid "Unit of Measure"
+msgstr "计量单位"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_mrp_inventory_procure_wizard
+msgid ""
+"Use this assistant to procure for this product and date.\n"
+"                    According to the product configuration,\n"
+"                    this may trigger a draft purchase order, a "
+"manufacturing\n"
+"                    order or a transfer picking."
+msgstr ""
+"使用此助手可以获得此产品和日期。\n"
+"                    根据产品配置，\n"
+"                    这可能会触发草稿采购订单、\n"
+"                   制造订单或转移领料。"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_product_mrp_area__mrp_verified
+msgid "Verified for MRP"
+msgstr "已验证MRP"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__waiting
+msgid "Waiting"
+msgstr "等待中"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__warehouse_id
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__warehouse_id
+msgid "Warehouse"
+msgstr "仓库"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure_item__wiz_id
+msgid "Wizard"
+msgstr "向导"
+
+#. module: mrp_multi_level
+#: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__calendar_id
+msgid "Working Hours"
+msgstr "工作时间"
+
+#. module: mrp_multi_level
+#. odoo-python
+#: code:addons/mrp_multi_level/models/product_mrp_area.py:0
+#, python-format
+msgid "You cannot use a negative number."
+msgstr "你不能使用一个负数。"
+
+#. module: mrp_multi_level
+#: model_terms:ir.ui.view,arch_db:mrp_multi_level.view_run_mrp_multi_level_wizard
+msgid "or"
+msgstr "或"

@@ -1,0 +1,21 @@
+
+account				会计
+sale				销售
+warehouse			仓库
+transport			运输
+manufactrue			制造
+hr					人事
+report				报表
+tool				工具
+other				其他
+
+tmp_pre				预发
+tmp_test			测试
+tmp_tmp				TMP
+
+
+验证完成后：
+1、先放tmp_tmp目录；
+2、测试一段时间后从tmp_tmp移入到tmp_test目录，提供试用；
+3、试用一段时间后从tmp_test移入到tmp_pre目录，提供使用；
+4、最终使用一段时间后移入对应目录，提供生产正式使用；

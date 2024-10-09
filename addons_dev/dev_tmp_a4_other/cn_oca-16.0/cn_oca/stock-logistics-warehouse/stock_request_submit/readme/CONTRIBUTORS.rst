@@ -1,0 +1,8 @@
+* `Open Source Integrators <https://www.opensourceintegrators.com>`_
+
+  * Maxime Chambreuil <mchambreuil@opensourceintegrators.com>
+  * Steve Campbell <scampbell@opensourceintegrators.com>
+
+* Héctor Villarreal Ortega <hector.villarreal@eficent.com>
+* Pimolnat Suntian <pimolnats@ecosoft.co.th>
+* Bill Yang <controlwave@outlook.com>

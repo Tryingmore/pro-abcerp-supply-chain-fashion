@@ -1,0 +1,38 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_multi_company
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta-20221012\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-18 16:23+0000\n"
+"PO-Revision-Date: 2023-03-05 22:24+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_multi_company
+#: model:ir.model.fields,field_description:base_multi_company.field_multi_company_abstract__company_ids
+msgid "Companies"
+msgstr "公司"
+
+#. module: base_multi_company
+#: model:ir.model.fields,field_description:base_multi_company.field_multi_company_abstract__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: base_multi_company
+#: model:ir.model,name:base_multi_company.model_multi_company_abstract
+msgid "Multi-Company Abstract"
+msgstr "多公司抽象模型"
+
+#. module: base_multi_company
+#: model:ir.model.fields,field_description:base_multi_company.field_multi_company_abstract__no_company_ids
+msgid "No Companies"
+msgstr "非多公司"

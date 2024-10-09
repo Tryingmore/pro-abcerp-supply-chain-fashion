@@ -1,0 +1,125 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_bom_hierarchy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-25 04:51+0000\n"
+"PO-Revision-Date: 2023-03-05 22:22+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model,name:mrp_bom_hierarchy.model_mrp_bom
+msgid "Bill of Material"
+msgstr "物料清单(BOM)"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model,name:mrp_bom_hierarchy.model_mrp_bom_line
+msgid "Bill of Material Line"
+msgstr "BOM明细"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "Child BoMs"
+msgstr "子BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__child_bom_ids
+msgid "Child Bom"
+msgstr "子BOM"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.view_mrp_bom_filter
+msgid "Has child BoMs"
+msgstr "有子BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__has_child
+msgid "Has components"
+msgstr "含有套件"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.view_mrp_bom_filter
+msgid "Has parent BoMs"
+msgstr "有父BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom_line__has_bom
+msgid "Has sub BoM"
+msgstr "有子BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__product_default_code
+msgid "Internal Reference"
+msgstr "内部参考"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__has_parent
+msgid "Is component"
+msgstr "套件"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "Parent BoMs"
+msgstr "父BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__parent_bom_ids
+msgid "Parent Bom"
+msgstr "父BOM"
+
+#. module: mrp_bom_hierarchy
+#: model:ir.model.fields,field_description:mrp_bom_hierarchy.field_mrp_bom__product_has_other_bom
+msgid "Product has other BoMs"
+msgstr "产品含有其他的BOM"
+
+#. module: mrp_bom_hierarchy
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#, python-format
+msgid "The child BOM for %(display_name)s"
+msgstr "%(display_name)s 的子BOM"
+
+#. module: mrp_bom_hierarchy
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#, python-format
+msgid "The parent BOM for %(display_name)s"
+msgstr "%(display_name)s 的父BOM"
+
+#. module: mrp_bom_hierarchy
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#, python-format
+msgid "This operator is not supported"
+msgstr "不支持这个操作"
+
+#. module: mrp_bom_hierarchy
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#, python-format
+msgid "Value should be True or False (not %s)"
+msgstr "值应为True或False（不是%s）"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_form_view
+msgid "View product's BoM"
+msgstr "查看产品的BOM"
+
+#. module: mrp_bom_hierarchy
+#: model_terms:ir.ui.view,arch_db:mrp_bom_hierarchy.mrp_bom_hierarchy_tree_view
+msgid "View product's other BoMs"
+msgstr "查看产品的其他BOM"
+
+#. module: mrp_bom_hierarchy
+#: code:addons/mrp_bom_hierarchy/model/mrp_bom.py:0
+#, python-format
+msgid ""
+"You should provide either a product or a product template to search a BoM "
+"Line"
+msgstr "你应该提供一个产品或一个产品模板来搜索BOM"

@@ -1,0 +1,715 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mgmtsystem_action
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-29 13:55+0000\n"
+"PO-Revision-Date: 2023-03-05 22:20+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mgmtsystem_action
+#: model:mail.template,body_html:mgmtsystem_action.action_email_template_reminder_action
+msgid ""
+"\n"
+"            \n"
+"<p>Hello <t t-out=\"object.user_id.name\"/>,</p>\n"
+"\n"
+"<p>\n"
+"This is an automated message to remind you that the\n"
+"following action is due to be completed in 10 days (<t t-out=\"object."
+"date_deadline\"/>):\n"
+"\n"
+"<b><a t-att-href=\"object.get_action_url()\"><t t-out=\"object.name\"/></"
+"a></b>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Thank you and have a nice day.<br>\n"
+"--<br>\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:mail.template,body_html:mgmtsystem_action.email_template_new_action_reminder
+msgid ""
+"\n"
+"            \n"
+"<p>Hello <t t-out=\"object.user_id.name\"/>,</p>\n"
+"\n"
+"<p>A new action has been assigned to you: <b><a t-att-href=\"object."
+"get_action_url()\"><t t-out=\"object.name\"/></a></b></p>\n"
+"<p><b>Deadline: </b><t t-out=\"object.date_deadline or ''\"/></p>\n"
+"\n"
+"<p>Please, use the action stages and messages to log progress.</p>\n"
+"\n"
+"<p>\n"
+"Thank you<br>\n"
+"--<br>\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__number_of_actions
+msgid "# of actions"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__number_of_days_to_close
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__number_of_days_to_close
+msgid "# of days to close"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__number_of_days_to_open
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__number_of_days_to_open
+msgid "# of days to open"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__number_of_exceedings_days
+msgid "# of exceedings days"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "#0000ff"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "#00ff00"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "#ffa500"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "#ffffff"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
+msgid "Action"
+msgstr "操作"
+
+#. module: mgmtsystem_action
+#: model:mail.template,name:mgmtsystem_action.email_template_new_action_reminder
+msgid "Action Assigned"
+msgstr "分配的操作"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_needaction
+msgid "Action Needed"
+msgstr "需要操作"
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_stage
+msgid "Action Stage"
+msgstr "操作阶段"
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_tag
+msgid "Action Tags"
+msgstr "操作标记"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
+msgid "Action title..."
+msgstr "操作标题…"
+
+#. module: mgmtsystem_action
+#: model:ir.actions.act_window,name:mgmtsystem_action.open_mgmtsystem_action_list
+#: model:ir.ui.menu,name:mgmtsystem_action.menu_config_action
+#: model:ir.ui.menu,name:mgmtsystem_action.menu_open_action
+#: model:ir.ui.menu,name:mgmtsystem_action.menu_report_mgmtsystem_action_tree
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_report_mgmtsystem_action_graph
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_report_mgmtsystem_action_pivot
+msgid "Actions"
+msgstr "操作"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__active
+msgid "Active"
+msgstr "有效"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动例外装饰"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_stage_form
+msgid "Add a description..."
+msgstr "添加说明…"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__age
+msgid "Age"
+msgstr "时期"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Archived"
+msgstr "归档"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数"
+
+#. module: mgmtsystem_action
+#: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_cancel
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.actions.act_window,help:mgmtsystem_action.project_tags_action
+msgid "Click to add a new tag."
+msgstr "单击以添加新标记。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__date_closed
+msgid "Close Date"
+msgstr "关闭日期"
+
+#. module: mgmtsystem_action
+#: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_close
+msgid "Closed"
+msgstr "关闭"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__date_closed
+msgid "Closed Date"
+msgstr "预计截止日期"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__color
+msgid "Color Index"
+msgstr "颜色指标"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__company_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Company"
+msgstr "公司"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__correction
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action_report__type_action__correction
+msgid "Corrective Action"
+msgstr "纠正措施"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__create_date
+msgid "Create Date"
+msgstr "创建日期"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__create_uid
+msgid "Created by"
+msgstr "创建人"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__date_deadline
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__date_deadline
+msgid "Deadline"
+msgstr "截止日期"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "Delete"
+msgstr "删除"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__description
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__description
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
+msgid "Description"
+msgstr "说明"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mgmtsystem_action
+#: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_draft
+msgid "Draft"
+msgstr "草稿"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "Dropdown menu"
+msgstr "下拉菜单"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "Edit Task"
+msgstr "编辑任务"
+
+#. module: mgmtsystem_action
+#: model:ir.actions.server,name:mgmtsystem_action.ir_cron_mgmtsystem_action_reminder_ir_actions_server
+#: model:ir.cron,cron_name:mgmtsystem_action.ir_cron_mgmtsystem_action_reminder
+msgid "Email Action Reminders 10 days before due date."
+msgstr "在到期日前10天通过电子邮件发送行动提醒。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__is_ending
+msgid "Ending stage"
+msgstr "结束阶段"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_form
+msgid "Extra Information"
+msgstr "额外信息"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__fold
+msgid "Folded in Kanban"
+msgstr "在看板中折叠"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Future Activities"
+msgstr "未来活动"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__sequence
+msgid "Gives the sequence order when displaying a list of actions."
+msgstr "给出显示操作列表时的顺序。"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Group By"
+msgstr "分组"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__has_message
+msgid "Has Message"
+msgstr "有消息"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.actions.act_window,help:mgmtsystem_action.action_report_mgmtsystem_action
+msgid ""
+"Have a general overview of all actions processed in the system by sorting "
+"them with specific criteria."
+msgstr "通过按特定标准对系统中处理的所有操作进行排序，对其进行总体概述。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__id
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__id
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__id
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新消息。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则通过邮件传递错误。"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__immediate
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action_report__type_action__immediate
+msgid "Immediate Action"
+msgstr "立即行动"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__improvement
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action_report__type_action__improvement
+msgid "Improvement Opportunity"
+msgstr "改善机会"
+
+#. module: mgmtsystem_action
+#: model:mgmtsystem.action.stage,name:mgmtsystem_action.stage_open
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action____last_update
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report____last_update
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage____last_update
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__write_uid
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__write_uid
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__write_date
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__write_date
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Late Activities"
+msgstr "迟到的活动"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__priority__0
+msgid "Low"
+msgstr "向下"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: mgmtsystem_action
+#: model:ir.model,name:mgmtsystem_action.model_mgmtsystem_action_report
+msgid "Management System Action Report"
+msgstr "管理体系执行报告"
+
+#. module: mgmtsystem_action
+#: model:ir.actions.act_window,name:mgmtsystem_action.action_report_mgmtsystem_action
+msgid "Management System Analysis"
+msgstr "管理体系分析"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_has_error
+msgid "Message Delivery error"
+msgstr "传递错误消息"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "My Actions"
+msgstr "我的行为"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "My Activities"
+msgstr "我的活动"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "My Followed Actions"
+msgstr "我关注的操作"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_tag__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mgmtsystem_action
+#. odoo-python
+#: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:0
+#, python-format
+msgid "New"
+msgstr "新的"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__priority__1
+msgid "Normal"
+msgstr "一般的"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作的数量"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__date_open
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__date_open
+msgid "Opening Date"
+msgstr "开始日期"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Pending"
+msgstr "等待"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action__type_action__prevention
+#: model:ir.model.fields.selection,name:mgmtsystem_action.selection__mgmtsystem_action_report__type_action__prevention
+msgid "Preventive Action"
+msgstr "预防措施"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__priority
+msgid "Priority"
+msgstr "优先"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__reference
+msgid "Reference"
+msgstr "参考"
+
+#. module: mgmtsystem_action
+#: model:mail.template,subject:mgmtsystem_action.action_email_template_reminder_action
+msgid "Reminder on Action: \"{{object.name}}\""
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:mail.template,name:mgmtsystem_action.action_email_template_reminder_action
+msgid "Reminder to Responsible"
+msgstr "提醒负责人"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__type_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__type_action
+msgid "Response Type"
+msgstr "反应类型"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__user_id
+msgid "Responsible"
+msgstr "有责任"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__sequence
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Show all records which has next action date is before today"
+msgstr "显示下一个操作日期在今天之前的所有记录"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__stage_id
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__stage_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Stage"
+msgstr "阶段"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__name
+msgid "Stage Name"
+msgstr "阶段名称"
+
+#. module: mgmtsystem_action
+#: model:ir.actions.act_window,name:mgmtsystem_action.mgmtsystem_action_stage_action
+#: model:ir.ui.menu,name:mgmtsystem_action.menu_mgmtsystem_action_stages
+msgid "Stages"
+msgstr "阶段"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_stage__is_starting
+msgid "Starting stage"
+msgstr "启动阶段"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__name
+msgid "Subject"
+msgstr "题材"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__system_id
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__system_id
+msgid "System"
+msgstr "体系"
+
+#. module: mgmtsystem_action
+#: model:ir.model.constraint,message:mgmtsystem_action.constraint_mgmtsystem_action_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr "标记名称已存在！"
+
+#. module: mgmtsystem_action
+#: model:ir.actions.act_window,name:mgmtsystem_action.mgmtsystem_action_tag_action
+#: model:ir.actions.act_window,name:mgmtsystem_action.project_tags_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action__tag_ids
+#: model:ir.ui.menu,name:mgmtsystem_action.menu_mgmtsystem_action_tags
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.project_tags_form_view
+msgid "Tags"
+msgstr "标签"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_stage_form
+msgid "Task Stage"
+msgstr "任务阶段"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action_stage__fold
+msgid ""
+"This stage is folded in the kanban view when there are no records in that "
+"stage to display."
+msgstr "当该阶段中没有要显示的记录时，该阶段将在看板视图中折叠。"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Today Activities"
+msgstr "今天的活动"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "Type"
+msgstr "类型"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,help:mgmtsystem_action.field_mgmtsystem_action__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录中异常活动的类型。"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "Unread Messages"
+msgstr "未读邮件"
+
+#. module: mgmtsystem_action
+#: model:ir.model.fields,field_description:mgmtsystem_action.field_mgmtsystem_action_report__user_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_filter
+msgid "User"
+msgstr "用户"
+
+#. module: mgmtsystem_action
+#. odoo-python
+#: code:addons/mgmtsystem_action/models/mgmtsystem_action.py:0
+#, python-format
+msgid "We cannot bring back the action to draft stage"
+msgstr "我们不能让行动回到草稿阶段"
+
+#. module: mgmtsystem_action
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_action.view_mgmtsystem_action_kanban
+msgid "oe_kanban_text_red"
+msgstr ""
+
+#. module: mgmtsystem_action
+#: model:mail.template,subject:mgmtsystem_action.email_template_new_action_reminder
+msgid "{{object.name}}"
+msgstr ""

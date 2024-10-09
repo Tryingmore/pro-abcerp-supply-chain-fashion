@@ -1,0 +1,43 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_packaging_calculator
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: stock_packaging_calculator
+#: model:ir.model.fields,field_description:stock_packaging_calculator.field_product_product__packaging_contained_mapping
+msgid "Packaging Contained Mapping"
+msgstr "映射包含的包装"
+
+#. module: stock_packaging_calculator
+#: model:ir.model,name:stock_packaging_calculator.model_product_product
+msgid "Product"
+msgstr "产品"
+
+#. module: stock_packaging_calculator
+#: model:ir.model,name:stock_packaging_calculator.model_product_qty_by_packaging_mixin
+msgid "Product Qty By Packaging (Mixin)"
+msgstr "按包装的产品数量（混合）"
+
+#. module: stock_packaging_calculator
+#: model:ir.model.fields,field_description:stock_packaging_calculator.field_product_qty_by_packaging_mixin__product_qty_by_packaging_display
+msgid "Qty by packaging"
+msgstr "包装数量"
+
+#. module: stock_packaging_calculator
+#: model:ir.model.fields,help:stock_packaging_calculator.field_product_product__packaging_contained_mapping
+msgid "Technical field to store contained packaging. "
+msgstr "用于存储含包装的技术字段。 "

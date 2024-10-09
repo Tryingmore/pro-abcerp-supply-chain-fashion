@@ -1,0 +1,83 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_quick
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 14:39+0000\n"
+"PO-Revision-Date: 2023-03-05 22:36+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: stock_picking_quick
+#: model_terms:ir.ui.view,arch_db:stock_picking_quick.view_picking_form
+msgid "Add"
+msgstr "批量添加"
+
+#. module: stock_picking_quick
+#: model:ir.model.fields,field_description:stock_picking_quick.field_product_product__display_name
+#: model:ir.model.fields,field_description:stock_picking_quick.field_stock_picking__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: stock_picking_quick
+#: model_terms:ir.ui.view,arch_db:stock_picking_quick.product_search_view4picking
+msgid "Filter products available in the current location"
+msgstr "过滤可用产品在当前位置"
+
+#. module: stock_picking_quick
+#: model:ir.model.fields,field_description:stock_picking_quick.field_product_product__id
+#: model:ir.model.fields,field_description:stock_picking_quick.field_stock_picking__id
+msgid "ID"
+msgstr "id "
+
+#. module: stock_picking_quick
+#: model:ir.model.fields,field_description:stock_picking_quick.field_product_product____last_update
+#: model:ir.model.fields,field_description:stock_picking_quick.field_stock_picking____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: stock_picking_quick
+#: model_terms:ir.ui.view,arch_db:stock_picking_quick.product_tree_view4picking
+msgid "Open"
+msgstr "打开"
+
+#. module: stock_picking_quick
+#: model:ir.model,name:stock_picking_quick.model_product_product
+msgid "Product"
+msgstr "产品"
+
+#. module: stock_picking_quick
+#: code:addons/stock_picking_quick/models/stock_picking.py:0
+#, python-format
+msgid "Product Variants"
+msgstr "产品变体"
+
+#. module: stock_picking_quick
+#: model_terms:ir.ui.view,arch_db:stock_picking_quick.product_tree_view4picking
+msgid "Products for picking"
+msgstr "调拨产品"
+
+#. module: stock_picking_quick
+#: model:ir.model.fields,field_description:stock_picking_quick.field_product_product__smart_search
+#: model:ir.model.fields,field_description:stock_picking_quick.field_stock_picking__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: stock_picking_quick
+#: model:ir.model,name:stock_picking_quick.model_stock_picking
+msgid "Transfer"
+msgstr "调拨"
+
+#. module: stock_picking_quick
+#: model_terms:ir.ui.view,arch_db:stock_picking_quick.product_search_view4picking
+msgid "Use Only Available Products"
+msgstr "仅使用可用产品"

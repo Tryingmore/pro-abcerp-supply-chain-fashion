@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<odoo>
+    <record model="ir.actions.report" id="report_ir_model_demo">
+        <field name="name">Model Information(Excel)</field>
+        <field name="report_name">report_ir_model_demo</field>
+        <field name="model">ir.model</field>
+        <field name="report_type">excel</field>
+        <field name="attachment">report_ir_model_demo</field>
+        <field name="template_path">/report_excel/demo/ir_model_demo.xlsx</field>
+        <field name="print_report_name">'Model information'</field>
+        <field name="multi" eval="True"/>
+        <field name="binding_model_id" ref="base.model_ir_model"/>
+    </record>
+    <record model="ir.actions.report" id="report_ir_model_multi_demo">
+        <field name="name">Model list export(Excel)</field>
+        <field name="report_name">report_ir_model_multi_demo</field>
+        <field name="model">ir.model</field>
+        <field name="report_type">excel</field>
+        <field name="attachment">report_ir_model_multi_demo</field>
+        <field name="template_path">/report_excel/demo/ir_model_list_demo.xlsx</field>
+        <field name="print_report_name">'Model list export'</field>
+        <field name="multi" eval="True"/>
+        <field name="binding_model_id" ref="base.model_ir_model"/>
+    </record>
+</odoo>

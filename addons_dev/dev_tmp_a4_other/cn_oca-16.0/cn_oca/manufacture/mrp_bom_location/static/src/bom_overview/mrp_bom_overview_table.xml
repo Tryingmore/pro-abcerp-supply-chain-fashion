@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+    <t name="mrp_bom_location.BomOverviewTableLocation" owl="1" t-inherit="mrp.BomOverviewTable" t-inherit-mode="extension">
+        <xpath expr="//table/thead/tr/th[7]" position="after">
+<!--            <th t-if="location" class="text-end" title="Location">Location</th>-->
+            <th class="text-end" title="Location">Location</th>
+        </xpath>
+        <xpath expr="//table/tfoot/tr/td[7]" position="after">
+            <td/>
+        </xpath>
+    </t>
+</templates>

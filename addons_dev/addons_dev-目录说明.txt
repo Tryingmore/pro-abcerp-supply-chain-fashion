@@ -1,0 +1,10 @@
+
+dev_a	开发目录
+dev_b	一个完整包测试目录
+dev_c	一个完整包测试目录
+dev_d	一个完整包测试目录
+dev_e	一个完整包测试目录
+dev_f	一个完整包测试目录
+dev_g	一个完整包测试目录
+
+测试完成后：从addons_dev/dev_b移入addons/tmp_tmp目录;

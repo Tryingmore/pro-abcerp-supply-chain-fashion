@@ -1,0 +1,66 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sales_team_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-20 06:00+0000\n"
+"PO-Revision-Date: 2023-03-05 22:31+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: sales_team_security
+#: model:ir.model,name:sales_team_security.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: sales_team_security
+#: model:ir.model.fields,help:sales_team_security.field_res_partner__team_id
+#: model:ir.model.fields,help:sales_team_security.field_res_users__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr "如果设置，此销售团队将用于与此合作伙伴相关的销售和工作"
+
+#. module: sales_team_security
+#: model:ir.model,name:sales_team_security.model_ir_rule
+msgid "Record Rule"
+msgstr "记录规则"
+
+#. module: sales_team_security
+#: model:ir.model.fields,field_description:sales_team_security.field_res_partner__team_id
+#: model:ir.model.fields,field_description:sales_team_security.field_res_users__team_id
+msgid "Sales Team"
+msgstr "销售团队"
+
+#. module: sales_team_security
+#: model:ir.model.fields,field_description:sales_team_security.field_res_partner__user_id
+#: model:ir.model.fields,field_description:sales_team_security.field_res_users__user_id
+msgid "Salesperson"
+msgstr "销售人员"
+
+#. module: sales_team_security
+#: model:ir.model.fields,help:sales_team_security.field_res_partner__user_id
+#: model:ir.model.fields,help:sales_team_security.field_res_users__user_id
+msgid "The internal user in charge of this contact."
+msgstr "负责此联系人的内部用户。"
+
+#. module: sales_team_security
+#: model:res.groups,comment:sales_team_security.group_sale_team_manager
+msgid ""
+"The user will have an access to the documents of the sales teams he/she "
+"belongs to."
+msgstr "用户将有权访问他/她所属销售团队的文档。"
+
+#. module: sales_team_security
+#: model:res.groups,name:sales_team_security.group_sale_team_manager
+msgid "User: Team Documents Only"
+msgstr "用户:仅限团队文档"

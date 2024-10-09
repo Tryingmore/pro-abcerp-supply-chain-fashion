@@ -1,0 +1,33 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_expense_cancel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta-20221012\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-08 14:15+0000\n"
+"PO-Revision-Date: 2023-03-05 22:19+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: hr_expense_cancel
+#: model_terms:ir.ui.view,arch_db:hr_expense_cancel.view_hr_expense_sheet_form
+msgid "Cancel all related operations"
+msgstr "取消所有相关操作"
+
+#. module: hr_expense_cancel
+#: model_terms:ir.ui.view,arch_db:hr_expense_cancel.view_hr_expense_sheet_form
+msgid "Cancel journal entries, payments and reconciliations"
+msgstr "取消会计分录、付款和对账"
+
+#. module: hr_expense_cancel
+#: model:ir.model,name:hr_expense_cancel.model_hr_expense_sheet
+msgid "Expense Report"
+msgstr "费用报告"

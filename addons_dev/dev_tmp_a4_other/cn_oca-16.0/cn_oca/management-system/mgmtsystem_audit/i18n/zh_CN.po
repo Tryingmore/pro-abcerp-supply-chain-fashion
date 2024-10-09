@@ -1,0 +1,653 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mgmtsystem_audit
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-29 15:49+0000\n"
+"PO-Revision-Date: 2023-03-05 22:21+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,body_html:mgmtsystem_audit.template_email_send_verification_list
+msgid ""
+"\n"
+"            \n"
+"<p>Hello,</p>\n"
+"\n"
+"<p>\n"
+"The audit <t t-out=\"object.name\" /> is scheduled in 1 week.\n"
+"Please finish the verification list and send it to the auditees:\n"
+"\n"
+"<a t-att-href=\"object.get_action_url()\">Link</a>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Thank you.\n"
+"--\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:mail.template,body_html:mgmtsystem_audit.template_email_prepare_to_audit
+msgid ""
+"\n"
+"            \n"
+"<p>Hello,</p>\n"
+"\n"
+"<p>\n"
+"The audit <t t-out=\"object.name\" /> is scheduled in 2 weeks.\n"
+"Please prepare the verification list:\n"
+"\n"
+"<a t-att-href=\"object.get_action_url()\">Link</a>\n"
+"</p>\n"
+"\n"
+"<p>\n"
+"Thank you.\n"
+"--\n"
+"Odoo\n"
+"</p>\n"
+"            \n"
+"        "
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_audits
+msgid "# of audits"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_days_to_close
+msgid "# of days to close"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Audit Report</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Improvement opportunities:</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Nonconformities:</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Points To Improve:</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "<strong>Strong points:</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "<strong>Verification List</strong>"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction
+msgid "Action Needed"
+msgstr "需要操作"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动例外装饰"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "活动类型图标"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model,name:mgmtsystem_audit.model_mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__audit_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_report_mgmtsystem_audit_graph
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_report_mgmtsystem_audit_pivot
+msgid "Audit"
+msgstr "审核"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__user_id
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Audit Manager"
+msgstr "审计经理"
+
+#. module: mgmtsystem_audit
+#. odoo-python
+#: code:addons/mgmtsystem_audit/models/mgmtsystem_audit.py:0
+#, python-format
+msgid "Audit closed"
+msgstr "审计结束"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.report,name:mgmtsystem_audit.audit_report_mgmtsystem_audit
+msgid "Audit report"
+msgstr "审计报告"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__auditee_user_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Auditees"
+msgstr "审计"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Auditees:"
+msgstr "审计"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__auditor_user_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Auditors"
+msgstr "审计员"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Auditors:"
+msgstr "审计员"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.open_mgmtsystem_audit_list
+#: model:ir.ui.menu,name:mgmtsystem_audit.menu_open_audit
+#: model:ir.ui.menu,name:mgmtsystem_audit.menu_report_mgmtsystem_audit_tree
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_audit_calendar
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Audits"
+msgstr "审计"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__audit_src
+msgid "Choose audit"
+msgstr "选择审核"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Close"
+msgstr "关闭"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields.selection,name:mgmtsystem_audit.selection__mgmtsystem_audit__state__done
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Closed"
+msgstr "关闭"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Closed Audits"
+msgstr "已结束审核"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__closing_date
+msgid "Closing Date"
+msgstr "结束日期"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__comments
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Comments"
+msgstr "评论"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__company_id
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Confidentiality:"
+msgstr "保密性："
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+msgid "Confidentially:"
+msgstr "保密："
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Conformed?"
+msgstr "符合要求？"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.copy_verification_lines_act_window
+#: model:ir.model,name:mgmtsystem_audit.model_copy_verification_lines
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.copy_verification_lines_form_view
+msgid "Copy Verification Lines"
+msgstr "复制验证行"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__create_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__create_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__date
+msgid "Date"
+msgstr "日期"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Date:"
+msgstr "日期"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__days_since_last_update
+msgid "Days Since Last Update"
+msgstr "上次更新后的天数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__display_name
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.server,name:mgmtsystem_audit.rule_set_prepare_to_audit_ir_actions_server
+msgid "Email all auditors 2 weeks before audit."
+msgstr "在审核前2周向所有审核员发送电子邮件。"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.server,name:mgmtsystem_audit.rule_set_send_verification_list_ir_actions_server
+msgid "Email all followers 1 week before audit."
+msgstr "在审核前一周向所有关注者发送电子邮件。"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者（合作伙伴）"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__has_message
+msgid "Has Message"
+msgstr "有消息"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.actions.act_window,help:mgmtsystem_audit.action_report_mgmtsystem_audit
+msgid ""
+"Have a general overview of all audits processed in the system by sorting "
+"them with specific criteria."
+msgstr "通过按照特定标准对系统中处理的所有审计进行分类，对其进行总体概述。"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__id
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__id
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "指示异常活动的图标。"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新消息。"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则通过邮件传递错误。"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__imp_opp_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Improvement Opportunities"
+msgstr "改善机会"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Internal"
+msgstr "内部的"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__is_conformed
+msgid "Is Conformed"
+msgstr "符合要求"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_is_follower
+msgid "Is Follower"
+msgstr "是关注者"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines____last_update
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit____last_update
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__write_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__write_uid
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__write_uid
+msgid "Last Updated by"
+msgstr "上次更新者"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_copy_verification_lines__write_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__write_date
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__write_date
+msgid "Last Updated on"
+msgstr "上次更新时间"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主要附件"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.action_report_mgmtsystem_audit
+msgid "Management System Audit Analysis"
+msgstr "管理体系审核分析"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error
+msgid "Message Delivery error"
+msgstr "传递错误消息"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__name
+msgid "Name"
+msgstr "名称"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__nonconformity_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Nonconformities"
+msgstr "不符合项"
+
+#. module: mgmtsystem_audit
+#: model:ir.model,name:mgmtsystem_audit.model_mgmtsystem_nonconformity
+msgid "Nonconformity"
+msgstr "不符合"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_nonconformities
+msgid "Number Of Nonconformities"
+msgstr "不符合项数量"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_questions_in_verification_list
+msgid "Number Of Questions In Verification List"
+msgstr "验证列表中的问题数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作的数量"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__number_of_improvements_opportunity
+msgid "Number of improvements Opportunities"
+msgstr "改善机会数量"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "传递错误的邮件数"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields.selection,name:mgmtsystem_audit.selection__mgmtsystem_audit__state__open
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Open"
+msgstr "打开的"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_filter
+msgid "Open Audits"
+msgstr "打开的审核"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__to_improve_points
+msgid "Points To Improve"
+msgstr "需要改进的点"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,subject:mgmtsystem_audit.template_email_prepare_to_audit
+msgid "Prepare to Audit: \"{{object.name}}\""
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:mail.template,name:mgmtsystem_audit.template_email_prepare_to_audit
+msgid "Prepare to audit"
+msgstr "准备审计"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__procedure_id
+msgid "Procedure"
+msgstr "程序"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__name
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Question"
+msgstr "问题"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__reference
+msgid "Reference"
+msgstr "参考"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.audit_report
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.verification_report
+msgid "Reference:"
+msgstr "参考"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_nonconformity__audit_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_nonconformity_form
+msgid "Related Audits"
+msgstr "相关审计"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "SMS传递错误"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,name:mgmtsystem_audit.template_email_send_verification_list
+msgid "Send Verification List"
+msgstr "发送验证列表"
+
+#. module: mgmtsystem_audit
+#: model:mail.template,subject:mgmtsystem_audit.template_email_send_verification_list
+msgid "Send Verification List: \"{{object.name}}\""
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_verification_line__seq
+msgid "Sequence"
+msgstr "序列"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__state
+msgid "State"
+msgstr "状态"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__strong_points
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Strong Points"
+msgstr "长处"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__system_id
+msgid "System"
+msgstr "体系"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "To Improve Points"
+msgstr "提高分数的步骤"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录中异常活动的类型。"
+
+#. module: mgmtsystem_audit
+#. odoo-python
+#: code:addons/mgmtsystem_audit/models/mgmtsystem_audit.py:0
+#, python-format
+msgid "Undefined"
+msgstr "未限定的"
+
+#. module: mgmtsystem_audit
+#: model:ir.model,name:mgmtsystem_audit.model_mgmtsystem_verification_line
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_verification_line_form
+msgid "Verification Line"
+msgstr "验证行"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.act_window,name:mgmtsystem_audit.open_mgmtsystem_verification_line_list
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_verification_line_filter
+msgid "Verification Lines"
+msgstr "验证行"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__line_ids
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.view_mgmtsystem_audit_form
+msgid "Verification List"
+msgstr "验证列表"
+
+#. module: mgmtsystem_audit
+#: model:ir.actions.report,name:mgmtsystem_audit.verification_report_mgmtsystem_audit
+msgid "Verification list report"
+msgstr "验证列表报告"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,field_description:mgmtsystem_audit.field_mgmtsystem_audit__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: mgmtsystem_audit
+#: model:ir.model.fields,help:mgmtsystem_audit.field_mgmtsystem_audit__website_message_ids
+msgid "Website communication history"
+msgstr "网站通信历史"
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.copy_verification_lines_form_view
+msgid "_Cancel"
+msgstr ""
+
+#. module: mgmtsystem_audit
+#: model_terms:ir.ui.view,arch_db:mgmtsystem_audit.copy_verification_lines_form_view
+msgid "_Copy"
+msgstr ""

@@ -1,0 +1,40 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_product_qty_by_packaging
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221205\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-25 06:36+0000\n"
+"PO-Revision-Date: 2023-03-05 22:35+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: stock_product_qty_by_packaging
+#: model:ir.model,name:stock_product_qty_by_packaging.model_stock_move_line
+msgid "Product Moves (Stock Move Line)"
+msgstr "产品移动(库存移动行)"
+
+#. module: stock_product_qty_by_packaging
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move__product_qty_by_packaging_display
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_move_line__product_qty_by_packaging_display
+#: model:ir.model.fields,field_description:stock_product_qty_by_packaging.field_stock_quant__product_qty_by_packaging_display
+msgid "Qty by packaging"
+msgstr "包装数量"
+
+#. module: stock_product_qty_by_packaging
+#: model:ir.model,name:stock_product_qty_by_packaging.model_stock_quant
+msgid "Quants"
+msgstr "数量"
+
+#. module: stock_product_qty_by_packaging
+#: model:ir.model,name:stock_product_qty_by_packaging.model_stock_move
+msgid "Stock Move"
+msgstr "库存移动"

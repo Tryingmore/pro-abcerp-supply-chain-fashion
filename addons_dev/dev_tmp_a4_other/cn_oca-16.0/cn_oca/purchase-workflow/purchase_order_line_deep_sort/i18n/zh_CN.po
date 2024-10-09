@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_order_line_deep_sort
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-15 01:52+0000\n"
+"PO-Revision-Date: 2023-03-05 22:28+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_direction__asc
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_direction__asc
+msgid "Ascending"
+msgstr "升序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__date_planned
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__date_planned
+msgid "By date planned"
+msgstr "按计划日期排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__name
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__name
+msgid "By name"
+msgstr "按说明排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__price_unit
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__price_unit
+msgid "By price"
+msgstr "按单价排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__product_id_name
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__product_id_name
+msgid "By product name"
+msgstr "按产品名称排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__product_id_default_code
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__product_id_default_code
+msgid "By product reference"
+msgstr "按产品内部参考排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_order__product_qty
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_order__product_qty
+msgid "By quantity"
+msgstr "按数量排序"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model,name:purchase_order_line_deep_sort.model_res_company
+msgid "Companies"
+msgstr "多公司"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model,name:purchase_order_line_deep_sort.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设定"
+
+#. module: purchase_order_line_deep_sort
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.res_config_settings_view_form
+msgid "Default Sort Criteria"
+msgstr "默认排序条件"
+
+#. module: purchase_order_line_deep_sort
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.res_config_settings_view_form
+msgid "Default sort criteria for purchase order lines"
+msgstr "采购订单行的默认排序条件"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__purchase_order__line_direction__desc
+#: model:ir.model.fields.selection,name:purchase_order_line_deep_sort.selection__res_company__default_po_line_direction__desc
+msgid "Descending"
+msgstr "降序"
+
+#. module: purchase_order_line_deep_sort
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.res_config_settings_view_form
+msgid "Direction"
+msgstr "方向"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_res_company__default_po_line_order
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_res_config_settings__po_line_order_default
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.res_config_settings_view_form
+msgid "Line Order"
+msgstr "订单行"
+
+#. module: purchase_order_line_deep_sort
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.purchase_order_form
+msgid "Other Info"
+msgstr "其它信息"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model,name:purchase_order_line_deep_sort.model_purchase_order
+msgid "Purchase Order"
+msgstr "采购订单行"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model,name:purchase_order_line_deep_sort.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "采购单明细"
+
+#. module: purchase_order_line_deep_sort
+#: model_terms:ir.ui.view,arch_db:purchase_order_line_deep_sort.res_config_settings_view_form
+msgid "Select a default sort criteria for purchase order lines."
+msgstr "选择采购订单行的默认排序条件。"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields,help:purchase_order_line_deep_sort.field_res_company__default_po_line_order
+#: model:ir.model.fields,help:purchase_order_line_deep_sort.field_res_config_settings__po_line_order_default
+msgid "Select a sorting criteria for purchase order lines."
+msgstr "选择采购订单行的排序条件。"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields,help:purchase_order_line_deep_sort.field_res_company__default_po_line_direction
+#: model:ir.model.fields,help:purchase_order_line_deep_sort.field_res_config_settings__po_line_direction_default
+msgid "Select a sorting direction for purchase order lines."
+msgstr "选择采购订单行的排序方向。"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_purchase_order__line_direction
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_res_company__default_po_line_direction
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_res_config_settings__po_line_direction_default
+msgid "Sort Direction"
+msgstr "排序方向"
+
+#. module: purchase_order_line_deep_sort
+#: model:ir.model.fields,field_description:purchase_order_line_deep_sort.field_purchase_order__line_order
+msgid "Sort Lines By"
+msgstr "订单行排序依据"

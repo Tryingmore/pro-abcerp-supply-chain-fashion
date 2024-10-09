@@ -1,0 +1,92 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_fiscal_position_type
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-05 17:34+0000\n"
+"PO-Revision-Date: 2023-03-05 17:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_fiscal_position_type
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__all
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__all
+msgid "All"
+msgstr "所有"
+
+#. module: account_fiscal_position_type
+#: model:account.chart.template,name:account_fiscal_position_type.chart_template
+msgid "Demo Chart Template (account_fiscal_position_type)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.account.template,name:account_fiscal_position_type.fake_account_001
+msgid "Fake Account 001"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.account.template,name:account_fiscal_position_type.fake_account_002
+msgid "Fake Account 002"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.fiscal.position,name:account_fiscal_position_type.fiscal_position_all
+msgid "Fiscal Position (Both Use)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.fiscal.position,name:account_fiscal_position_type.fiscal_position_purchase
+msgid "Fiscal Position (Purchase Use)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.fiscal.position,name:account_fiscal_position_type.fiscal_position_sale
+msgid "Fiscal Position (Sale Use)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.fiscal.position.template,name:account_fiscal_position_type.fiscal_position_template_purchase
+msgid "Fiscal Position Template (Purchase Use)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:account.fiscal.position.template,name:account_fiscal_position_type.fiscal_position_template_sale
+msgid "Fiscal Position Template (Sale Use)"
+msgstr ""
+
+#. module: account_fiscal_position_type
+#: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position__type_position_use
+#: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_fiscal_position_template__type_position_use
+msgid "Position Application"
+msgstr "职位申请"
+
+#. module: account_fiscal_position_type
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__purchase
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__purchase
+msgid "Purchase"
+msgstr "采购"
+
+#. module: account_fiscal_position_type
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position__type_position_use__sale
+#: model:ir.model.fields.selection,name:account_fiscal_position_type.selection__account_fiscal_position_template__type_position_use__sale
+msgid "Sale"
+msgstr "销售"
+
+#. module: account_fiscal_position_type
+#: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_bank_statement_line__suitable_fiscal_position_ids
+#: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_move__suitable_fiscal_position_ids
+#: model:ir.model.fields,field_description:account_fiscal_position_type.field_account_payment__suitable_fiscal_position_ids
+msgid "Suitable Fiscal Position"
+msgstr "合适的财务状况"
+
+#. module: account_fiscal_position_type
+#: model:account.account.template,name:account_fiscal_position_type.chart_template_liquidity_transfer
+msgid "流动性转移"
+msgstr ""

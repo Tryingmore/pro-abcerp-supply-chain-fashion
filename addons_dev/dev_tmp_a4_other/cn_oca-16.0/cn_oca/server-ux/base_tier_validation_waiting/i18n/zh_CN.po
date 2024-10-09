@@ -1,0 +1,83 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_tier_validation_waiting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-01 14:24+0000\n"
+"PO-Revision-Date: 2023-03-05 22:34+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review__display_name
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_validation__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition__id
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review__id
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_validation__id
+msgid "ID"
+msgstr ""
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,help:base_tier_validation_waiting.field_tier_definition__notify_on_pending
+msgid ""
+"If set, all possible reviewers will be notified by email when this "
+"definition is triggered."
+msgstr "如果设置，则触发此定义规则时将通过电子邮件通知所有的审批人。"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review____last_update
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_validation____last_update
+msgid "Last Modified on"
+msgstr "最近修改时间"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition__notify_on_pending
+msgid "Notify Reviewers on reaching Pending"
+msgstr "待审批状态通知审批人"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_definition__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review__smart_search
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_validation__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields,field_description:base_tier_validation_waiting.field_tier_review__status
+msgid "Status"
+msgstr "状态"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model,name:base_tier_validation_waiting.model_tier_definition
+msgid "Tier Definition"
+msgstr "层级定义"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model,name:base_tier_validation_waiting.model_tier_review
+msgid "Tier Review"
+msgstr "层级审批"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model,name:base_tier_validation_waiting.model_tier_validation
+msgid "Tier Validation (abstract)"
+msgstr "多层级审批（抽象）"
+
+#. module: base_tier_validation_waiting
+#: model:ir.model.fields.selection,name:base_tier_validation_waiting.selection__tier_review__status__waiting
+msgid "Waiting"
+msgstr "正在等待"

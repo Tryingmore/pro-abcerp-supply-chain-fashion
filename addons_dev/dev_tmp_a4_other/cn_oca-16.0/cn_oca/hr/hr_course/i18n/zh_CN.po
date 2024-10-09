@@ -1,0 +1,556 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_course
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-21 09:30+0000\n"
+"PO-Revision-Date: 2023-03-05 22:19+0800\n"
+"Last-Translator: Olga Marco Puértolas <olga.marco@creublanca.es>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_attendee__result__absent
+msgid "Absent"
+msgstr "缺勤"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_needaction
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_needaction
+msgid "Action Needed"
+msgstr "待处理"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__active
+msgid "Active"
+msgstr "启用"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Assign attendees"
+msgstr "指派出席者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_attachment_count
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__attendant_ids
+msgid "Attendant"
+msgstr "服务员"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Attendees"
+msgstr "出席者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__authorized_by
+msgid "Authorized By"
+msgstr "授权人"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Back to Draft"
+msgstr "回到草稿"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Cancel Course"
+msgstr "取消课程"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__cancelled
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Cancelled Course"
+msgstr "取消的课程"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__category_id
+#: model_terms:ir.ui.view,arch_db:hr_course.view_course_category_search
+msgid "Category"
+msgstr "分类"
+
+#. module: hr_course
+#: model:ir.model.constraint,message:hr_course.constraint_hr_course_category_name_uniq
+msgid "Category already exists !"
+msgstr "已经存在的分类!"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__comment
+msgid "Comment"
+msgstr "评论"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Complete Course"
+msgstr "完成的课程"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__completed
+msgid "Completed"
+msgstr "已完成"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__content
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Content"
+msgstr "内容"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Convocatory"
+msgstr "唤起"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__course_id
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_search_view
+msgid "Course"
+msgstr "课程"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_course_attendee
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__course_attendee_ids
+msgid "Course Attendee"
+msgstr "课程参加者"
+
+#. module: hr_course
+#: model:ir.actions.act_window,name:hr_course.open_view_course_category_form
+#: model:ir.ui.menu,name:hr_course.menu_view_course_category_form
+#: model_terms:ir.ui.view,arch_db:hr_course.view_course_category_form
+#: model_terms:ir.ui.view,arch_db:hr_course.view_course_category_search
+msgid "Course Categories"
+msgstr "课程分类"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_course_category
+msgid "Course Category"
+msgstr "课程类别"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__cost
+msgid "Course Cost"
+msgstr "课程价格"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_search_view
+msgid "Course Name"
+msgstr "课程名称"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Course Results"
+msgstr "课程效果"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_course_schedule
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__course_schedule_ids
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_schedule_id
+msgid "Course Schedule"
+msgstr "课时表"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__name
+msgid "Course category"
+msgstr "课程类别"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Course name"
+msgstr "课程名称"
+
+#. module: hr_course
+#: model:ir.actions.act_window,name:hr_course.action_hr_course
+#: model:ir.actions.act_window,name:hr_course.action_view_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_employee__courses_ids
+#: model:ir.ui.menu,name:hr_course.menu_hr_course
+#: model:ir.ui.menu,name:hr_course.menu_hr_course_courses
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+#: model_terms:ir.ui.view,arch_db:hr_course.view_hr_employee_form
+msgid "Courses"
+msgstr "课程"
+
+#. module: hr_course
+#: model:ir.actions.act_window,name:hr_course.action_hr_course_schedule
+#: model:ir.ui.menu,name:hr_course.menu_hr_course_schedule
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Courses Schedule"
+msgstr "课时表"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__create_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__create_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__create_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__create_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__create_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__create_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__create_date
+msgid "Created on"
+msgstr "创建于"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__currency_id
+msgid "Currency"
+msgstr "货币"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__display_name
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__display_name
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__display_name
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__display_name
+msgid "Display Name"
+msgstr "显示名字"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__draft
+msgid "Draft"
+msgstr "草拟"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Draft Course"
+msgstr "草稿课程"
+
+#. module: hr_course
+#: model:ir.model,name:hr_course.model_hr_employee
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__employee_id
+msgid "Employee"
+msgstr "员工"
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+#, python-format
+msgid "Employees removed from this course: <br></br>%s"
+msgstr "从本课程移除的员工：<br></br>%s"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_end
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__end_date
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__evaluation_criteria
+msgid "Evaluation Criteria"
+msgstr "评价标准"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Evaluation criteria"
+msgstr "评价标准"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_attendee__result__failed
+msgid "Failed"
+msgstr "失败"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_follower_ids
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_follower_ids
+msgid "Followers"
+msgstr "追随者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_partner_ids
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "追随者（伙伴）"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__has_message
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__has_message
+msgid "Has Message"
+msgstr "有消息"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__permanence
+msgid "Has Permanence"
+msgstr "是否永久"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__id
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__id
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__id
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中，则需要注意新消息。"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_has_error
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_has_sms_error
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_error
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中，则某些邮件存在传递错误。"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__in_progress
+msgid "In progress"
+msgstr "进行中"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__in_validation
+msgid "In validation"
+msgstr "验证中"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__instructor_ids
+msgid "Instructor"
+msgstr "教练"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_is_follower
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_is_follower
+msgid "Is Follower"
+msgstr "是否是追随者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course____last_update
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee____last_update
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category____last_update
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule____last_update
+msgid "Last Modified on"
+msgstr "上次修改于"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__write_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__write_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__write_uid
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__write_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__write_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_category__write_date
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__write_date
+msgid "Last Updated on"
+msgstr "最后更新于"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_main_attachment_id
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "主附件"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_has_error
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_has_error
+msgid "Message Delivery error"
+msgstr "邮件传递错误"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_ids
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__name
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__name
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__name
+msgid "Name"
+msgstr "名称"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_needaction_counter
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作数量"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_employee__count_courses
+msgid "Number of courses"
+msgstr "课程数量"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_has_error_counter
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数量"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_needaction_counter
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作的消息数"
+
+#. module: hr_course
+#: model:ir.model.fields,help:hr_course.field_hr_course__message_has_error_counter
+#: model:ir.model.fields,help:hr_course.field_hr_course_schedule__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "出现传递错误的邮件数"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__objective
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Objective"
+msgstr "目的"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Pass everybody"
+msgstr "通过所有人"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_attendee__result__passed
+msgid "Passed"
+msgstr "通过"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_attendee__result__pending
+msgid "Pending"
+msgstr "待定"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__permanence_time
+msgid "Permanence Time"
+msgstr "永久性时间"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__place
+msgid "Place"
+msgstr "场地"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Rate Course"
+msgstr "课程率"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__result
+msgid "Result"
+msgstr "结果"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course__message_has_sms_error
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信发送错误"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_form_view
+msgid "Schedules"
+msgstr "时间表"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid "Start Course"
+msgstr "开始上课"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_start
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__start_date
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__state
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__state
+msgid "State"
+msgstr "状态"
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+#, python-format
+msgid "The start date cannot be later than the end date."
+msgstr "开始日期不能晚于结束日期。"
+
+#. module: hr_course
+#: model:ir.model.fields,field_description:hr_course.field_hr_course_schedule__training_company_id
+msgid "Training company"
+msgstr "培训公司"
+
+#. module: hr_course
+#: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__waiting_attendees
+msgid "Waiting attendees"
+msgstr "等待的与会者"
+
+#. module: hr_course
+#. odoo-python
+#: code:addons/hr_course/models/hr_course_schedule.py:0
+#, python-format
+msgid "You cannot complete the course with pending results"
+msgstr "需要等待结果您无法完成课程"
+
+#. module: hr_course
+#: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
+msgid ""
+"You should set a course back to draft only if you cancelled it by mistake or "
+"if some of its information is incorrect. Do you want to continue?"
+msgstr ""
+"仅当您错误地取消课程或其中的某些信息不正确时，才应将课程设置回草稿。是否要继"
+"续？"
+
+#~ msgid "Authorized by"
+#~ msgstr "Autorizado por"
+
+#~ msgid "Employees removed from this course: <br></br>"
+#~ msgstr "Empleados eliminados de este curso: <br></br>"
+
+#~ msgid "End date"
+#~ msgstr "Fecha final"
+
+#~ msgid "Followers (Channels)"
+#~ msgstr "Seguidores (Canales)"
+
+#~ msgid "Number of unread messages"
+#~ msgstr "Número de mensajes no leídos"
+
+#~ msgid "Permanence time"
+#~ msgstr "Tiempo de permanencia"
+
+#~ msgid "Start date"
+#~ msgstr "Fecha de inicio"
+
+#~ msgid "Unread Messages"
+#~ msgstr "Mensajes sin leer"
+
+#~ msgid "Unread Messages Counter"
+#~ msgstr "Contador de mensajes no leídos"
+
+#~ msgid "Website Messages"
+#~ msgstr "Mensajes del sitio web"
+
+#~ msgid "Website communication history"
+#~ msgstr "Historial de comunicación del sitio web"
+
+#~ msgid "hr.course"
+#~ msgstr "hr.course"
+
+#~ msgid "hr.course.attendee"
+#~ msgstr "hr.course.attendee"
+
+#~ msgid "hr.course.result"
+#~ msgstr "hr.course.result"

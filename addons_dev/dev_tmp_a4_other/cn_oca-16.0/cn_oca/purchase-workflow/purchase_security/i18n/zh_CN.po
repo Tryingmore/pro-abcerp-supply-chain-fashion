@@ -1,0 +1,23 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* purchase_security
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-20 06:36+0000\n"
+"PO-Revision-Date: 2023-03-05 22:29+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: purchase_security
+#: model:res.groups,name:purchase_security.group_purchase_own_orders
+msgid "User (own orders)"
+msgstr "用户（自己的订单）"

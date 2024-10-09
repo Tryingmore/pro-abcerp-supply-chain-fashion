@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_tier_validation_bypass
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230108\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-20 06:07+0000\n"
+"PO-Revision-Date: 2023-03-05 22:33+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_tier_validation_bypass
+#. odoo-python
+#: code:addons/base_tier_validation_bypass/models/tier_validation.py:0
+#, python-format
+msgid "A review was bypassed by %s."
+msgstr "%s将审批跳过."
+
+#. module: base_tier_validation_bypass
+#: model:res.groups,name:base_tier_validation_bypass.group_can_bypass_tier_reivew
+msgid "Authorized to bypass tier review"
+msgstr "授权跳过层级审批"
+
+#. module: base_tier_validation_bypass
+#. odoo-python
+#: code:addons/base_tier_validation_bypass/models/tier_validation.py:0
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_bypass.tier_validation_label_forward
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_bypass.view_bypass_wizard
+#, python-format
+msgid "Bypass"
+msgstr "跳过审批"
+
+#. module: base_tier_validation_bypass
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_bypass.view_bypass_wizard
+msgid "Bypass Description"
+msgstr "跳过审批说明"
+
+#. module: base_tier_validation_bypass
+#. odoo-python
+#: code:addons/base_tier_validation_bypass/wizard/forward_wizard.py:0
+#, python-format
+msgid "Bypass: %s"
+msgstr "跳过审批: %s"
+
+#. module: base_tier_validation_bypass
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_bypass.view_bypass_wizard
+msgid "Cancel"
+msgstr "取消"
+
+#. module: base_tier_validation_bypass
+#: model:ir.model,name:base_tier_validation_bypass.model_tier_validation_forward_wizard
+msgid "Forward Wizard"
+msgstr "转审向导"
+
+#. module: base_tier_validation_bypass
+#. odoo-python
+#: code:addons/base_tier_validation_bypass/models/tier_validation.py:0
+#, python-format
+msgid "Last review cannot be bypassed"
+msgstr "最后一级审批无法跳过审批"
+
+#. module: base_tier_validation_bypass
+#. odoo-python
+#: code:addons/base_tier_validation_bypass/models/tier_validation.py:0
+#, python-format
+msgid "There is no next review in sequence to bypass"
+msgstr "没有后续审批可以跳过审批"
+
+#. module: base_tier_validation_bypass
+#: model:ir.model,name:base_tier_validation_bypass.model_tier_validation
+msgid "Tier Validation (abstract)"
+msgstr "多层级审批（抽象）"
+
+#. module: base_tier_validation_bypass
+#: model:mail.message.subtype,name:base_tier_validation_bypass.mt_tier_validation_bypassed
+msgid "Tier Validation Bypass Notification"
+msgstr "多层级审批跳过审批通知"
+
+#. module: base_tier_validation_bypass
+#: model_terms:ir.ui.view,arch_db:base_tier_validation_bypass.tier_validation_label_forward
+msgid "You are about to bypass a document, are you sure to continue?"
+msgstr "您将要跳过此单据本级审批，是否确定要继续？"

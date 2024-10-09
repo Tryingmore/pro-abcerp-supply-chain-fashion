@@ -1,0 +1,181 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_invoice_transmit_method
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-05 17:34+0000\n"
+"PO-Revision-Date: 2023-03-05 17:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__active
+msgid "Active"
+msgstr "激活"
+
+#. module: account_invoice_transmit_method
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
+msgid "Archived"
+msgstr "存档"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__code
+msgid "Code"
+msgstr "代号"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_id
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_id
+msgid "Customer Invoice Transmission Method"
+msgstr "客户发票传输方式"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_code
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_code
+msgid "Customer Invoice Transmission Method Code"
+msgstr "客户发票传输方法代码"
+
+#. module: account_invoice_transmit_method
+#: model:transmit.method,name:account_invoice_transmit_method.portal
+msgid "Customer Portal"
+msgstr "客户门户"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_res_partner__customer_invoice_transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_res_users__customer_invoice_transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_transmit_method__code
+msgid ""
+"Do not modify the code of an existing Transmit Method because it may be used"
+" to identify a particular transmit method."
+msgstr "不要修改现有传输方法的代码，因为它可能用于标识特定的传输方法。"
+
+#. module: account_invoice_transmit_method
+#: model:transmit.method,name:account_invoice_transmit_method.mail
+msgid "E-Mail"
+msgstr "电子邮件"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__id
+msgid "ID"
+msgstr "id"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__write_date
+msgid "Last Updated on"
+msgstr "上次更新日期"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__name
+msgid "Name"
+msgstr "名称"
+
+#. module: account_invoice_transmit_method
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
+msgid "Name or Code"
+msgstr "名称或代码"
+
+#. module: account_invoice_transmit_method
+#: model:transmit.method,name:account_invoice_transmit_method.post
+msgid "Post"
+msgstr "发布"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__customer_ok
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
+msgid "Selectable on Customers"
+msgstr "客户可选"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__supplier_ok
+#: model_terms:ir.ui.view,arch_db:account_invoice_transmit_method.transmit_method_search
+msgid "Selectable on Vendors"
+msgstr "供应商可选"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_transmit_method__sequence
+msgid "Sequence"
+msgstr "序列号"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_account_bank_statement_line__transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_account_move__transmit_method_code
+#: model:ir.model.fields,help:account_invoice_transmit_method.field_account_payment__transmit_method_code
+msgid "Technical field used for UX purposes"
+msgstr "用于用户体验目的的技术领域"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.constraint,message:account_invoice_transmit_method.constraint_transmit_method_code_unique
+msgid "This transmit method code already exists!"
+msgstr "此传输方法代码已存在！"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_bank_statement_line__transmit_method_id
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_move__transmit_method_id
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_payment__transmit_method_id
+msgid "Transmission Method"
+msgstr "传输方式"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_bank_statement_line__transmit_method_code
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_move__transmit_method_code
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_account_payment__transmit_method_code
+msgid "Transmission Method Code"
+msgstr "传输方式代码"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model,name:account_invoice_transmit_method.model_transmit_method
+msgid "Transmit Method of a document"
+msgstr "文件的传输方法"
+
+#. module: account_invoice_transmit_method
+#: model:ir.actions.act_window,name:account_invoice_transmit_method.transmit_method_action
+#: model:ir.ui.menu,name:account_invoice_transmit_method.transmit_method_menu
+msgid "Transmit Methods"
+msgstr "传输方法"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_id
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_id
+msgid "Vendor Invoice Reception Method"
+msgstr "供应商发票接收方式"
+
+#. module: account_invoice_transmit_method
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_partner__supplier_invoice_transmit_method_code
+#: model:ir.model.fields,field_description:account_invoice_transmit_method.field_res_users__supplier_invoice_transmit_method_code
+msgid "Vendor Invoice Reception Method Code"
+msgstr "供应商发票接收方法代码"

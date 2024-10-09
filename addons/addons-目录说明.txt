@@ -1,0 +1,21 @@
+
+extend_oca			扩展包目录-oca
+extend_other		扩展包目录-其他
+standard			标准版目录
+trade				行业版目录
+special				特殊版目录
+
+tmp_pre				临时，准生产
+tmp_test			临时，测试
+tmp_tmp				临时，新加入包
+
+一、主要使用：
+1、从第三方或是OCA测试通过的放在extend扩展包目录；
+2、自己开发的放在standard、trade，大部分客户都需要使用；
+3、特殊定制功能放在specail，需要的客户再自行安装；
+
+二、验证完成后：
+1、先放tmp_tmp目录；
+2、测试一段时间后从tmp_tmp移入到tmp_test目录，提供试用；
+3、试用一段时间后从tmp_test移入到tmp_pre目录，提供使用；
+4、最终使用一段时间后移入extend目录，提供生产正式使用；

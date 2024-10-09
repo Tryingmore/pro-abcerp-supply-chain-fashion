@@ -1,0 +1,103 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_product_mass_addition
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0-20220708\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-15 14:27+0000\n"
+"PO-Revision-Date: 2023-03-05 22:26+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.3\n"
+"Last-Translator: Bill Yang <controlwave@outlook.com>\n"
+"Language: zh_CN\n"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__quick_uom_category_id
+msgid "Category"
+msgstr "分类"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,help:base_product_mass_addition.field_product_product__quick_uom_category_id
+msgid ""
+"Conversion between Units of Measure can only occur if they belong to the "
+"same category. The conversion will be made based on the ratios."
+msgstr "只有在属于同一个分类时，才允许单位转换。转换将基于比率。"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_mass_addition__display_name
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: base_product_mass_addition
+#: model_terms:ir.ui.view,arch_db:base_product_mass_addition.product_search_form_view
+msgid "Filter products in current parent"
+msgstr "筛选当前父级中的产品"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_mass_addition__id
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__id
+msgid "ID"
+msgstr "id "
+
+#. module: base_product_mass_addition
+#: model_terms:ir.ui.view,arch_db:base_product_mass_addition.product_search_form_view
+msgid "In current parent"
+msgstr "在当前父级中"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_mass_addition____last_update
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: base_product_mass_addition
+#: model_terms:ir.ui.view,arch_db:base_product_mass_addition.product_product_tree_view
+msgid "Open"
+msgstr "打开"
+
+#. module: base_product_mass_addition
+#: model:ir.model,name:base_product_mass_addition.model_product_product
+msgid "Product"
+msgstr "产品"
+
+#. module: base_product_mass_addition
+#: model_terms:ir.ui.view,arch_db:base_product_mass_addition.product_product_tree_view
+msgid "Products"
+msgstr "多个产品"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__qty_to_process
+msgid "Qty To Process"
+msgstr "待处理数量"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__quick_uom_id
+msgid "Quick Uom"
+msgstr ""
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,help:base_product_mass_addition.field_product_product__qty_to_process
+msgid ""
+"Set this quantity to create a new line for this product or update the "
+"existing one."
+msgstr "设置此数量以为此产品创建新行或更新现有行。"
+
+#. module: base_product_mass_addition
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_mass_addition__smart_search
+#: model:ir.model.fields,field_description:base_product_mass_addition.field_product_product__smart_search
+msgid "Smart Search"
+msgstr "智能搜索"
+
+#. module: base_product_mass_addition
+#: model:ir.model,name:base_product_mass_addition.model_product_mass_addition
+msgid ""
+"inherit this to add a mass product addition function                    to "
+"your model"
+msgstr "继承添加大量产品函数到你的模型中"

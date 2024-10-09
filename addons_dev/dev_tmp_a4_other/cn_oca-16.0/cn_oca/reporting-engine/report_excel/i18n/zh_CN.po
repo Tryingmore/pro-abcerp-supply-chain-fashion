@@ -1,0 +1,79 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* report_excel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20230317\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-01 01:23+0000\n"
+"PO-Revision-Date: 2023-04-01 09:25+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: report_excel
+#: model:ir.actions.report,print_report_name:report_excel.report_ir_model_demo
+msgid "'Model information'"
+msgstr "'模块信息'"
+
+#. module: report_excel
+#: model:ir.actions.report,print_report_name:report_excel.report_ir_model_multi_demo
+msgid "'Model list export'"
+msgstr "'模块清单'"
+
+#. module: report_excel
+#: model_terms:ir.ui.view,arch_db:report_excel.act_report_xml_view_inherit
+msgid "/report_excel/data/template.xlsx"
+msgstr ""
+
+#. module: report_excel
+#: model:ir.model.fields.selection,name:report_excel.selection__ir_actions_report__report_type__excel
+msgid "Excel"
+msgstr ""
+
+#. module: report_excel
+#: model:ir.model.fields,help:report_excel.field_ir_actions_report__template_path
+msgid "Excel temnplate file path, eg: /report_excel/data/template.xlsx"
+msgstr "Excel模板文件路径，如: /report_excel/data/template.xlsx"
+
+#. module: report_excel
+#: model:ir.actions.report,name:report_excel.report_ir_model_demo
+msgid "Model Information(Excel)"
+msgstr "模块信息(Excel)"
+
+#. module: report_excel
+#: model:ir.actions.report,name:report_excel.report_ir_model_multi_demo
+msgid "Model list export(Excel)"
+msgstr "模块列表(Excel)"
+
+#. module: report_excel
+#: model:ir.model,name:report_excel.model_ir_actions_report
+msgid "Report Action"
+msgstr "报告动作"
+
+#. module: report_excel
+#: model:ir.model.fields,field_description:report_excel.field_ir_actions_report__report_type
+msgid "Report Type"
+msgstr "报告类型"
+
+#. module: report_excel
+#: model:ir.model.fields,field_description:report_excel.field_ir_actions_report__template_path
+msgid "Template file path"
+msgstr "模块文件路径"
+
+#. module: report_excel
+#: model:ir.model.fields,help:report_excel.field_ir_actions_report__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser PDF means the report will be rendered using Wkhtmltopdf and "
+"downloaded by the user."
+msgstr ""
+"将要呈现的报告的类型，每个报告都有其自己的呈现方法. HTML 表示将直接在浏"
+"览器中打开报告. PDF 表示报告将使用 Wkhtmltopdf 进行呈现并由用户下载."

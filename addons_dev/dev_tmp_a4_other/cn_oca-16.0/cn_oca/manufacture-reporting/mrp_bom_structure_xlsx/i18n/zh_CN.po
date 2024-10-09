@@ -1,0 +1,76 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* mrp_bom_structure_xlsx
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221104\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-26 14:24+0000\n"
+"PO-Revision-Date: 2023-03-05 22:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "BOM Name"
+msgstr "BOM名称"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "BOM Structure"
+msgstr "BOM结构"
+
+#. module: mrp_bom_structure_xlsx
+#: model:ir.model,name:mrp_bom_structure_xlsx.model_report_mrp_bom_structure_xlsx_bom_structure_xlsx
+msgid "BOM Structure XLSX Report"
+msgstr "BOM结构XLSX报表"
+
+#. module: mrp_bom_structure_xlsx
+#: model:ir.actions.report,name:mrp_bom_structure_xlsx.bom_structure_xlsx
+msgid "Export BoM Structure to Excel"
+msgstr "导出BOM结构到Excel"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Level"
+msgstr "层次"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Product Name"
+msgstr "产品名称"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Product Reference"
+msgstr "内部参考"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Quantity"
+msgstr "数量"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Reference"
+msgstr "参考"
+
+#. module: mrp_bom_structure_xlsx
+#: code:addons/mrp_bom_structure_xlsx/report/bom_structure_xlsx.py:0
+#, python-format
+msgid "Unit of Measure"
+msgstr "单位"

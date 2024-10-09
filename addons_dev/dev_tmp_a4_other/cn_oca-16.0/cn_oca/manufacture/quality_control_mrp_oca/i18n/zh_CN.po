@@ -1,0 +1,75 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* quality_control_mrp_oca
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0-20221104\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-30 10:12+0000\n"
+"PO-Revision-Date: 2023-03-05 22:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_mrp_production__created_inspections
+msgid "Created inspections"
+msgstr "创建的检验"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_mrp_production__qc_inspections_ids
+msgid "Inspections"
+msgstr "检验"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,help:quality_control_mrp_oca.field_mrp_production__qc_inspections_ids
+msgid "Inspections related to this production."
+msgstr "和这个制造单关联的检验"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_qc_inspection__production_id
+#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_search_view_production
+msgid "Production"
+msgstr "制造单"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model,name:quality_control_mrp_oca.model_mrp_production
+msgid "Production Order"
+msgstr "生产订单"
+
+#. module: quality_control_mrp_oca
+#: model:qc.trigger,name:quality_control_mrp_oca.qc_trigger_mrp
+msgid "Production done"
+msgstr "制造单完成"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model.fields,field_description:quality_control_mrp_oca.field_qc_inspection_line__production_id
+#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.qc_inspection_line_search_production_view
+msgid "Production order"
+msgstr "制造单"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model,name:quality_control_mrp_oca.model_qc_inspection
+msgid "Quality control inspection"
+msgstr "质量控制检验"
+
+#. module: quality_control_mrp_oca
+#: model:ir.model,name:quality_control_mrp_oca.model_qc_inspection_line
+msgid "Quality control inspection line"
+msgstr "质量控制检验行"
+
+#. module: quality_control_mrp_oca
+#: model:ir.actions.act_window,name:quality_control_mrp_oca.action_qc_inspection_per_production
+msgid "Quality inspections from production order"
+msgstr "由制造单来的质量检验"
+
+#. module: quality_control_mrp_oca
+#: model_terms:ir.ui.view,arch_db:quality_control_mrp_oca.mrp_production_qc_view
+msgid "inspections"
+msgstr "检验"
