@@ -1,0 +1,13 @@
+[Unit]
+Description=uperp16
+
+[Service]
+Type=simple
+PermissionsStartOnly=true
+User=root2
+ExecStart=/bin/bash /home/www/w_pro/pro_uperp/codes/v1.0_uperp16/w_lin/start16.sh
+
+#StandardOutput=journal+console
+
+[Install]
+WantedBy=multi-user.target
